@@ -1,0 +1,273 @@
+basics:
+  name: Tancredi Trugenberger
+  label: Senior Frontend Developer
+  email: tancredi@pxld.co.uk
+  phone: '+447593067780'
+  prettyPhone: '07593067780'
+  url: ''
+  summary: |-
+    Building products end-to-end, design to full-stack development.
+
+    Co-Founder, front-end developer contractor.
+
+  location:
+    address: ['Flat 6 Reflection House', '112A Cheshire st']
+    postalCode: E2 6H
+    city: London
+    countryCode: UK
+    country: United Kingdom
+    region: London
+
+  profiles:
+    - network: LinkedIn
+      username: tancre
+      url: https://linkedin.com/in/tancre
+
+    - network: GitHub
+      username: tancredi
+      url: https://github.com/tancredi
+work:
+  - name: Preview
+    endDate: ''
+    highlights: []
+    position: Frontend Developer
+    startDate: '2020-06-30'
+    summary: Front-End Development - React, Next.js
+    url: https://preview.art/
+  - name: Lendable (Level Card)
+    endDate: '2020-04-30'
+    highlights: []
+    position: Lead Frontend Developer
+    startDate: '2018-09-30'
+    summary:
+      Design and app / web Development for the credit card product, hiring and
+      training of a front-end team - React Native, TypeScript, Jest, Detox, Next.js
+    url: https://levelcard.co.uk/
+  - name: YLD
+    endDate: '2018-07-31'
+    highlights: []
+    position: Frontend Developer at DAZN
+    startDate: '2018-02-28'
+    summary: Front-end developer consultant - React, MobX, Jest, Micro front-ends
+    url: https://www.yld.io/
+  - name: Lendable
+    endDate: '2018-01-31'
+    highlights: []
+    position: Frontend Developer
+    startDate: '2017-09-30'
+    summary:
+      Design of the main web platform and Isomorphic development - React, Node.js,
+      Redux, Jest, Cucumber, Selenium
+    url: https://www.lendable.co.uk/
+  - name: Instnt Recruitment
+    endDate: '2017-08-31'
+    highlights: []
+    position: Frontend Developer
+    startDate: '2017-03-31'
+    summary: Vue.js, Stylus, Flask
+    url: https://instnt.com/
+  - name: Workshape.io
+    endDate: ''
+    highlights: []
+    position: Co-founder & CPO
+    startDate: '2014-12-31'
+    summary: Design, Full-stack development, growth hacking - Angular, Node.js, Stylus,
+    url: https://www.workshape.io/
+  - name: Kano Computing
+    endDate: '2014-12-31'
+    highlights: []
+    position: Lead Web Developer
+    startDate: '2013-09-30'
+    summary: Full stack and Design, Node.js, Vue.js, Stylus, Mocha.js
+    url: https://kano.me/
+  - name: Memrise
+    endDate: '2013-09-30'
+    highlights: []
+    position: Front End Developer & UX/UI Designer
+    startDate: '2012-09-30'
+    summary: JavaScript, SCSS, Django
+    url: https://www.memrise.com/
+  - name: BraveNewTalent
+    endDate: '2012-08-31'
+    highlights: []
+    position: Junion Front-end Developer & UX Designer
+    startDate: '2012-01-31'
+    summary: JavaScript, LESS CSS, HTML, PHP
+    url: ''
+  - name: The Crocodile
+    endDate: '2012-01-31'
+    highlights: []
+    position: Junior Interactive Designer
+    startDate: '2011-02-28'
+    summary: Javascript, HTML, CSS, PHP, ExpressionEngine, Flash & ActionScript
+    url: https://thecroc.com/
+  - name: Self employed
+    endDate: '2011-01-31'
+    highlights: []
+    position: Web Designer and Developer
+    startDate: '2010-01-31'
+    summary:
+      Design and delivery of websites and merchandise for clients, Adobe Suite,
+      PHP, HTML, CSS, JavaScript
+    url: ''
+  - name: Macpro Studio
+    endDate: '2009-04-30'
+    highlights: []
+    position: Web Designer and Developer (Internship)
+    startDate: '2009-02-28'
+    summary: Adobe Suite, PHP, HTML, CSS, JavaScript
+    url: ''
+volunteer: []
+education:
+  - institution: Liceo artistico statale di Brera - Hajech
+    area: arts, drawing, sculpting, painting
+    studyType: Arts diploma
+    startDate: '2009-12-31'
+    endDate: '2010-12-31'
+    gpa: ''
+    courses: []
+  - institution: IPSC Caterina da Siena
+    area: graphic design, advertising
+    studyType: Qualification for Graphic Design Operator
+    startDate: '2008-12-31'
+    endDate: '2009-12-31'
+    gpa: ''
+    courses: []
+  - institution: ENAIP Santander
+    area: informatics, electronics, electrics
+    studyType: Tecnico Hardware/Software
+    startDate: '2004-12-31'
+    endDate: '2008-12-31'
+    gpa: ''
+    courses: []
+awards: []
+publications: []
+skills:
+  - name: JavaScript
+    level: ''
+    keywords: []
+  - name: TypeScript
+    level: ''
+    keywords: []
+  - name: React.js
+    level: ''
+    keywords: []
+  - name: React Native
+    level: ''
+    keywords: []
+  - name: Vue.js
+    level: ''
+    keywords: []
+  - name: MobX
+    level: ''
+    keywords: []
+  - name: Redux
+    level: ''
+    keywords: []
+  - name: Node.js
+    level: ''
+    keywords: []
+  - name: HTML5
+    level: ''
+    keywords: []
+  - name: CSS
+    level: ''
+    keywords: []
+  - name: SASS/SCSS
+    level: ''
+    keywords: []
+  - name: LESS
+    level: ''
+    keywords: []
+  - name: Stylus
+    level: ''
+    keywords: []
+  - name: Sketch
+    level: ''
+    keywords: []
+  - name: Photoshop
+    level: ''
+    keywords: []
+  - name: Illustrator
+    level: ''
+    keywords: []
+  - name: Photoshop
+    level: ''
+    keywords: []
+languages:
+  - language: it
+    fluency: Native
+  - language: en
+    fluency: Bilingual
+interests: []
+references:
+  - name: Mike Borozdin
+    reference:
+      "Tanc is a unique blend of a talented designer and an incredibly proficient
+      software engineer. When I joined Lendable I was really impressed with the projects
+      Tanc built. And when I say 'built' I mean he made beautiful graphic design,
+      created maintainable software architecture, implemented it elegantly in the code,
+      and put up a Continuous Integration pipeline. I don't know that many people who
+      can do so many things and do them well. And did I tell you that he always thinks
+      about the user and the product? Well, now you know! "
+  - name: Livia van Strydonck
+    reference:
+      I've had the pleasure of working with Tanc at Lendable and at Kano across
+      various different projects. He is a fantastic designer and a brilliant software
+      engineer. I know I can rely on Tanc to deliver beautiful work, fast and with a
+      lot of humour.
+  - name: Riccardo Cocetta
+    reference:
+      "I worked with Tanc at Kano and YLD, and knowing him made me realise
+      of the existence of a new breed of Front-End developers: he can think of amazing
+      UI/UX and implement them himself with I speed and precision I couldn't imagine
+      before. I have witnessed him excel both in one-man shows and in teams, where I
+      could entrust him as a partner with high level objectives and rely that he would
+      drive the team to deliver on those.  If I could, I would hire Tanc to work with
+      me at any company ... but he doesn't always want to join. "
+  - name: Yonatan Raz-Fridman
+    reference:
+      'Tank is a talented creator, thrives on solving problems in creative
+      ways through design and code. '
+  - name: Tommy Säl
+    reference:
+      "Tancredi is a highly skilled, well spoken, easy to work with developer
+      with a lot of hidden talents. At first glance you'd think that he spent years
+      just perfecting his skills as a web developer, but once you've spent some time
+      with him you'll realise hes a jack of all trades – and mastering most of them.\r\n\r\nI'd
+      recommend Tanc to anyone who needs an eccentric (in a good way) developer with
+      a lot of passion."
+  - name: Mathew Keegan
+    reference:
+      Tanc is without a doubt one of the most talented and creative people
+      I've ever met. He can work in any part of the stack, and single handedly created
+      an entire social platform for Kano and released a fantastically addictive code
+      drawing app that is loved by thousands.
+  - name: Edward Cooke
+    reference:
+      "Tanc's an extremely gifted designer/developer, with a flair for producing
+      beautiful things at speed. His skill and experience go far beyond his age. He's
+      passionate, insightful and iconoclastic. All in all: a very talented young entrepreneur. "
+  - name: Alex Klein
+    reference:
+      Tancredi Trugenberger is a one-off – a uniquely talented, thoughtful,
+      and energetic technologist – by quality and sheer irrepressibility, he is in a
+      league all his own. At Kano, Tanc brought an artist's eye to exceedingly difficult
+      projects, all on short deadlines, and consistently wowed myself and his colleagues.
+      He has extraordinary product instincts and a development approach that allows
+      him to test, explore, and validate in the time it takes most engineers to brew
+      the coffee. We're glad to have him contributing to the Kano Product and can fully
+      endorse any of his outside ventures as well.
+  - name: Adam Johnson
+    reference:
+      Tanc is a perfectionist and works tirelessly to ensure every pixel and
+      interaction is in place. He often adds special flair to projects beyond the call
+      of duty.
+  - name: Kevin Rooney
+    reference:
+      "Tanc has an amazing skill set. Its rare to find someone with such a
+      great ability and appreciation for Design but who can also make that design work
+      with the coding side of things. \r\n\r\nTanc brings an amazing enthusiasm to projects,
+      this just made me want to work harder and come up with more interesting things
+      for him to build. I would work with Tanc again in a heart beat."
+projects: []

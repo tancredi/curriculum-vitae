@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "icons";
+    src: url("./icons.eot?183e19255bcb3f6c5d1f1784d95d463e?#iefix") format("embedded-opentype"),
+url("./icons.woff2?183e19255bcb3f6c5d1f1784d95d463e") format("woff2"),
+url("./icons.woff?183e19255bcb3f6c5d1f1784d95d463e") format("woff"),
+url("./icons.ttf?183e19255bcb3f6c5d1f1784d95d463e") format("truetype"),
+url("./icons.svg?183e19255bcb3f6c5d1f1784d95d463e#icons") format("svg");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-email:before {
+    content: "\f101";
+}
+.icon-github:before {
+    content: "\f102";
+}
+.icon-linkedin:before {
+    content: "\f103";
+}
+.icon-phone:before {
+    content: "\f104";
+}
+.icon-pin:before {
+    content: "\f105";
+}

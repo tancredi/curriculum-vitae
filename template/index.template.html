@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, minimal-ui"
+    />
+
+    <title>{{basics.name}}</title>
+
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+
+  <div class="page">
+    <section class="ruled section-basics">
+      <div class="left">
+        <h1 class="full-name">{{basics.name}}</h1>
+        <h2 class="full-name">{{basics.label}}</h2>
+      </div>
+
+      <div class="right">
+        <ul class="contacts contacts-address">
+          <li>
+            <div>
+              <i class="icon-pin"></i>
+              {{#each basics.location.address}}{{this}}<br />{{/each}}
+              {{basics.location.city}} {{basics.location.postalCode}}<br />
+              {{basics.location.country}}<br />
+            </div>
+          </li>
+        </ul>
+
+        <ul class="contacts contacts-links">
+          <li>
+            <a href="mailto:{{basics.email}}" target="_blank">
+              <i class="icon-email"></i>
+              {{basics.email}}
+            </a>
+          </li>
+
+          <li>
+            <a href="tel:{{basics.phone}}" target="_blank">
+              <i class="icon-phone"></i>
+              {{basics.prettyPhone}}
+            </a>
+          </li>
+
+          {{#each basics.profiles}}
+          <li>
+            <a href="{{url}}" target="_blank">
+              <i class="icon-{{lower network}}"></i>
+              {{network}}
+            </a>
+          </li>
+          {{/each}}
+        </ul>
+      </div>
+    </section>
+    <section></section>
+  </div>
+
+  <body></body>
+</html>
