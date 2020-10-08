@@ -68,7 +68,16 @@
           />
 
           <div class="content">
-            <h3>{{name}}</h3>
+            <div class="heading">
+              <h3>{{name}}</h3>
+              {{#if url}}
+
+              <a href="{{url}}">
+                {{fallback prettyUrl url}}
+                <i class="icon-chevron-right"></i>
+              </a>
+              {{/if}}
+            </div>
 
             <h4>{{position}}</h4>
 

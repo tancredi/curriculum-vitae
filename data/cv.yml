@@ -26,6 +26,7 @@ basics:
     - network: GitHub
       username: tancredi
       url: https://github.com/tancredi
+
 work:
   - name: Preview
     endDate: ''
@@ -34,6 +35,8 @@ work:
     startDate: '2020-06-30'
     summary: Front-End Development - React, Next.js
     url: https://preview.art/
+    prettyUrl: www.preview.art
+
   - name: Lendable (Level Card)
     endDate: '2020-04-30'
     highlights: []
@@ -43,6 +46,8 @@ work:
       Design and app / web Development for the credit card product, hiring and
       training of a front-end team - React Native, TypeScript, Jest, Detox, Next.js
     url: https://levelcard.co.uk/
+    prettyUrl: www.levelcard.co.uk
+
   - name: YLD
     endDate: '2018-07-31'
     highlights: []
@@ -50,6 +55,8 @@ work:
     startDate: '2018-02-28'
     summary: Front-end developer consultant - React, MobX, Jest, Micro front-ends
     url: https://www.yld.io/
+    prettyUrl: www.yld.io
+
   - name: Lendable
     endDate: '2018-01-31'
     highlights: []
@@ -59,6 +66,8 @@ work:
       Design of the main web platform and Isomorphic development - React, Node.js,
       Redux, Jest, Cucumber, Selenium
     url: https://www.lendable.co.uk/
+    prettyUrl: www.lendable.co.uk
+
   - name: Instnt Recruitment
     endDate: '2017-08-31'
     highlights: []
@@ -66,6 +75,8 @@ work:
     startDate: '2017-03-31'
     summary: Vue.js, Stylus, Flask
     url: https://instnt.com/
+    prettyUrl: www.instnt.com
+
   - name: Workshape.io
     endDate: ''
     highlights: []
@@ -73,6 +84,8 @@ work:
     startDate: '2014-12-31'
     summary: Design, Full-stack development, growth hacking - Angular, Node.js, Stylus,
     url: https://www.workshape.io/
+    prettyUrl: www.workshape.io
+
   - name: Kano Computing
     endDate: '2014-12-31'
     highlights: []
@@ -80,6 +93,8 @@ work:
     startDate: '2013-09-30'
     summary: Full stack and Design, Node.js, Vue.js, Stylus, Mocha.js
     url: https://kano.me/
+    prettyUrl: www.kano.me
+
   - name: Memrise
     endDate: '2013-09-30'
     highlights: []
@@ -87,6 +102,8 @@ work:
     startDate: '2012-09-30'
     summary: JavaScript, SCSS, Django
     url: https://www.memrise.com/
+    prettyUrl: www.memrise.com
+
   - name: BraveNewTalent
     endDate: '2012-08-31'
     highlights: []
@@ -94,6 +111,7 @@ work:
     startDate: '2012-01-31'
     summary: JavaScript, LESS CSS, HTML, PHP
     url: ''
+
   - name: The Crocodile
     endDate: '2012-01-31'
     highlights: []
@@ -101,6 +119,8 @@ work:
     startDate: '2011-02-28'
     summary: Javascript, HTML, CSS, PHP, ExpressionEngine, Flash & ActionScript
     url: https://thecroc.com/
+    prettyUrl: www.thecroc.com
+
   - name: Self employed
     endDate: '2011-01-31'
     highlights: []
@@ -110,6 +130,7 @@ work:
       Design and delivery of websites and merchandise for clients, Adobe Suite,
       PHP, HTML, CSS, JavaScript
     url: ''
+
   - name: Macpro Studio
     endDate: '2009-04-30'
     highlights: []
@@ -117,7 +138,9 @@ work:
     startDate: '2009-02-28'
     summary: Adobe Suite, PHP, HTML, CSS, JavaScript
     url: ''
+
 volunteer: []
+
 education:
   - institution: Liceo artistico statale di Brera - Hajech
     area: arts, drawing, sculpting, painting

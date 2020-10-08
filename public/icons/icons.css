@@ -1,10 +1,10 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.eot?c5e9e75b32a6dc456c352ee32325a85c?#iefix") format("embedded-opentype"),
-url("./icons.woff2?c5e9e75b32a6dc456c352ee32325a85c") format("woff2"),
-url("./icons.woff?c5e9e75b32a6dc456c352ee32325a85c") format("woff"),
-url("./icons.ttf?c5e9e75b32a6dc456c352ee32325a85c") format("truetype"),
-url("./icons.svg?c5e9e75b32a6dc456c352ee32325a85c#icons") format("svg");
+    src: url("./icons.eot?fb8ef4262c385e3eaf35716c2f3e9e08?#iefix") format("embedded-opentype"),
+url("./icons.woff2?fb8ef4262c385e3eaf35716c2f3e9e08") format("woff2"),
+url("./icons.woff?fb8ef4262c385e3eaf35716c2f3e9e08") format("woff"),
+url("./icons.ttf?fb8ef4262c385e3eaf35716c2f3e9e08") format("truetype"),
+url("./icons.svg?fb8ef4262c385e3eaf35716c2f3e9e08#icons") format("svg");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -18,18 +18,21 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-email:before {
+.icon-chevron-right:before {
     content: "\f101";
 }
-.icon-github:before {
+.icon-email:before {
     content: "\f102";
 }
-.icon-linkedin:before {
+.icon-github:before {
     content: "\f103";
 }
-.icon-phone:before {
+.icon-linkedin:before {
     content: "\f104";
 }
-.icon-pin:before {
+.icon-phone:before {
     content: "\f105";
+}
+.icon-pin:before {
+    content: "\f106";
 }

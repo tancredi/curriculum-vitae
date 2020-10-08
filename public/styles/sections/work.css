@@ -18,9 +18,25 @@
   flex: 1;
 }
 
-.jobs-list h3 {
+.jobs-list .heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.jobs-list .heading h3 {
   font-weight: normal;
-  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+.jobs-list .heading a {
+  font-size: 14px;
+}
+
+.jobs-list .heading a i {
+  display: inline-block;
+  color: var(--color-link);
+  margin-left: -5px;
 }
 
 .jobs-list h4 {
