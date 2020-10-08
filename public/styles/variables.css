@@ -1,6 +1,7 @@
 :root {
   /* Typography */
-  --font-face-base: 'Gotham';
+  --font-face-base: 'Open Sans';
+  --font-face-special: 'Gotham';
 
   /* Base palette */
   --color-white: #fff;
