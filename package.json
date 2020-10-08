@@ -12,6 +12,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "handlebars": "^4.7.6",
+    "moment": "^2.29.1",
+    "slug": "^3.3.5",
     "yaml": "^1.10.0"
   },
   "devDependencies": {

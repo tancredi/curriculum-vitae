@@ -57,7 +57,27 @@
         </ul>
       </div>
     </section>
-    <section></section>
+    <section class="section-work">
+      <div class="jobs-list">
+        {{#each work}}
+        <div class="job">
+          <img
+            class="logo"
+            src="/assets/companies/{{slug name}}.svg"
+            alt="{{name}} logo"
+          />
+
+          <h3>{{name}}</h3>
+
+          <h4 class="period">
+            {{date startDate 'MMMM YYYY'}}
+            <span>&mdash;</span>
+            {{date endDate 'MMMM YYYY' 'Present'}}
+          </h4>
+        </div>
+        {{/each}}
+      </div>
+    </section>
   </div>
 
   <body></body>

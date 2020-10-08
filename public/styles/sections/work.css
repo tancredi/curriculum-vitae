@@ -1,0 +1,37 @@
+.jobs-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.jobs-list .job {
+  width: calc(100% / 3);
+  margin-bottom: 20px;
+}
+
+.jobs-list h3 {
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.jobs-list .period {
+  color: var(--color-gray);
+  font-weight: normal;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.jobs-list .job:last-child {
+  margin-bottom: 0;
+}
+
+.jobs-list .logo {
+  width: 140px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 3px;
+  margin: auto;
+  margin-bottom: 10px;
+  display: block;
+}
