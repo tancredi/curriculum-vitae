@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="styles/index.css" />
   </head>
 
+  <!-- Basics -->
+
   <div class="page">
     <section class="ruled section-basics">
       <div class="left">
@@ -57,40 +59,54 @@
         </ul>
       </div>
     </section>
+
+    <!-- Work -->
+
     <section class="section-work">
-      <div class="jobs-list">
-        {{#each work}}
-        <div class="job">
-          <img
-            class="logo"
-            src="/assets/companies/{{slug name}}-icon.svg"
-            alt="{{name}} logo"
-          />
+      <h2>Work</h2>
 
-          <div class="content">
-            <div class="heading">
-              <h3>{{name}}</h3>
-              {{#if url}}
+      <div class="jobs-grid">
+        {{#eachColumn work 2}}
 
-              <a href="{{url}}">
-                {{fallback prettyUrl url}}
-                <i class="icon-chevron-right"></i>
-              </a>
-              {{/if}}
+        <div class="col">
+          {{#each this}}
+          <div class="job">
+            <img
+              class="logo"
+              src="/assets/companies/{{slug name}}-icon.svg"
+              alt="{{name}} logo"
+            />
+
+            <div class="content">
+              <div class="heading">
+                <h3>{{name}}</h3>
+
+                {{#if url}}
+
+                <a href="{{url}}" target="_blank">
+                  {{fallback prettyUrl url}}
+                  <i class="icon-chevron-right"></i>
+                </a>
+                {{/if}}
+              </div>
+
+              <div class="detail">
+                <h4>{{position}}</h4>
+
+                <p class="period">
+                  {{date startDate 'MMM YYYY'}}
+                  <span>-</span>
+                  {{date endDate 'MMM YYYY''Present'}}
+                </p>
+              </div>
+
+              <p>{{summary}}</p>
             </div>
-
-            <h4>{{position}}</h4>
-
-            <p class="period">
-              {{date startDate 'MMMM YYYY'}}
-              <span>&mdash;</span>
-              {{date endDate 'MMMM YYYY' 'Present'}}
-            </p>
-
-            <p>{{summary}}</p>
           </div>
+          {{/each}}
         </div>
-        {{/each}}
+
+        {{/eachColumn}}
       </div>
     </section>
   </div>
