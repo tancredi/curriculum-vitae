@@ -16,6 +16,17 @@
   align-items: flex-start;
   /* border-bottom: 1px solid var(--color-ruler); */
   margin: 20px 0;
+  position: relative;
+  padding-left: 30px;
+}
+
+.jobs-grid .job .year-counter {
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translate(0, -50%) rotate(-90deg);
+  margin-left: 20px;
+  white-space: nowrap;
 }
 
 .jobs-grid .content {

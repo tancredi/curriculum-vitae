@@ -71,6 +71,10 @@
         <div class="col">
           {{#each this}}
           <div class="job">
+            {{#listDiffRender @root.work this}}
+            <div class="year-counter">{{date startDate 'YYYY'}}</div>
+            {{/listDiffRender}}
+
             <img
               class="logo"
               src="/assets/companies/{{slug name}}-icon.svg"

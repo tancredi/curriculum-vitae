@@ -12,6 +12,18 @@ body {
   box-shadow: rgba(0, 0, 0, 0.07) 0 2px 5px;
 }
 
+@page {
+  size: auto;
+  margin: 0mm;
+}
+
+@media print {
+  .page {
+    max-width: auto;
+    box-shadow: none;
+  }
+}
+
 section {
   display: block;
   padding: 30px;

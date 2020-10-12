@@ -31,4 +31,23 @@ exports.eachColumn = (values, columnsCount, options) => {
   return columns.map(options.fn).join('');
 };
 
+exports.listDiffRender = (list, entry, options) => {
+  const index = list.indexOf(entry);
+  const previous = list[index - 1];
+  const render = (value) => options.fn(value);
+
+  if (!previous) {
+    return render(entry);
+  }
+
+  const prevFormatted = render(previous);
+  const curFormatted = render(entry);
+
+  if (prevFormatted !== curFormatted) {
+    return curFormatted;
+  }
+
+  return null;
+};
+
 exports.slug = (str) => slug(str);
