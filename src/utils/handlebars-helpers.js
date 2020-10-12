@@ -31,16 +31,16 @@ exports.eachColumn = (values, columnsCount, options) => {
   return columns.map(options.fn).join('');
 };
 
-exports.listDiffRender = (list, entry, options) => {
+exports.listDiffRender = (list, entry, dir, options) => {
   const index = list.indexOf(entry);
-  const previous = list[index - 1];
+  const adjacent = list[dir === 'disc' ? index - 1 : index + 1];
   const render = (value) => options.fn(value);
 
-  if (!previous) {
+  if (!adjacent) {
     return render(entry);
   }
 
-  const prevFormatted = render(previous);
+  const prevFormatted = render(adjacent);
   const curFormatted = render(entry);
 
   if (prevFormatted !== curFormatted) {

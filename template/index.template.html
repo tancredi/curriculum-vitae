@@ -71,9 +71,11 @@
         <div class="col">
           {{#each this}}
           <div class="job">
-            {{#listDiffRender @root.work this}}
-            <div class="year-counter">{{date startDate 'YYYY'}}</div>
-            {{/listDiffRender}}
+            <!-- {{#listDiffRender @root.work this 'asc'}}
+            <div class="year-counter">
+              <div class="counter">{{date startDate 'YYYY'}}</div>
+            </div>
+            {{/listDiffRender}} -->
 
             <img
               class="logo"
@@ -85,18 +87,6 @@
               <div class="heading">
                 <h3>{{name}}</h3>
 
-                {{#if url}}
-
-                <a href="{{url}}" target="_blank">
-                  {{fallback prettyUrl url}}
-                  <i class="icon-chevron-right"></i>
-                </a>
-                {{/if}}
-              </div>
-
-              <div class="detail">
-                <h4>{{position}}</h4>
-
                 <p class="period">
                   {{date startDate 'MMM YYYY'}}
                   <span>-</span>
@@ -104,7 +94,22 @@
                 </p>
               </div>
 
-              <p>{{summary}}</p>
+              <div class="detail">
+                <h4>{{position}}</h4>
+              </div>
+
+              <p>
+                {{summary}} {{#if url}}
+                <a href="{{url}}" target="_blank">
+                  {{fallback prettyUrl url}}
+                  <i class="icon-chevron-right"></i>
+                </a>
+                {{/if}}
+              </p>
+
+              <div class="skills">
+                {{#each skills}}<span>{{this}}</span>{{/each}}
+              </div>
             </div>
           </div>
           {{/each}}

@@ -1,12 +1,24 @@
 .jobs-grid {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
   margin: -20px -15px;
 }
 
 .jobs-grid .col {
   width: 50%;
   padding: 0 15px;
+  position: relative;
+}
+
+.jobs-grid .col:before {
+  content: '';
+  position: absolute;
+  height: calc(100% - 150px);
+  width: 0;
+  left: 35px;
+  top: 50px;
+  border-left: 1px dashed var(--color-ruler);
 }
 
 .jobs-grid .job {
@@ -15,18 +27,30 @@
   flex-direction: row;
   align-items: flex-start;
   /* border-bottom: 1px solid var(--color-ruler); */
-  margin: 20px 0;
   position: relative;
-  padding-left: 30px;
+  padding: 20px 0 20px 50px;
 }
 
 .jobs-grid .job .year-counter {
   position: absolute;
-  right: 100%;
-  top: 50%;
-  transform: translate(0, -50%) rotate(-90deg);
-  margin-left: 20px;
-  white-space: nowrap;
+  left: 0;
+  top: 80px;
+  height: 100%;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  transform: translateX(-50%);
+}
+
+.jobs-grid .job .year-counter .counter {
+  display: block;
+  position: relative;
+  /* transform-origin: center center; */
+  /* transform: rotate(-90deg); */
+  /* background: var(--color-page); */
+  padding: 0 15px;
+  color: var(--color-gray-light);
+  background: var(--color-white);
 }
 
 .jobs-grid .content {
@@ -74,15 +98,34 @@
   color: var(--color-gray);
   font-weight: normal;
   font-size: 14px;
+  margin-top: 1px;
+  margin-bottom: 0;
+}
+
+.jobs-grid .skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.jobs-grid .skills span {
+  display: flex;
+  margin-right: 5px;
   margin-bottom: 5px;
+  background: var(--color-gray-lighter);
+  color: var(--color-gray);
+  padding: 3px 7px;
+  font-size: 12px;
+  border-radius: 3px;
 }
 
 .jobs-grid .logo {
-  width: 55px;
-  height: 55px;
+  width: 45px;
+  height: 45px;
   object-fit: cover;
   border-radius: 3px;
   display: block;
+  margin-left: -50px;
   margin-right: 20px;
   margin-top: 5px;
 }
@@ -90,4 +133,5 @@
 .jobs-grid p {
   font-weight: normal;
   font-size: 13px;
+  margin-bottom: 10px;
 }

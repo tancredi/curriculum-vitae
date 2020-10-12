@@ -12,7 +12,7 @@ basics:
 
   location:
     address: ['Flat 6 Reflection House', '112A Cheshire st']
-    postalCode: E2 6H
+    postalCode: E2 6HE
     city: London
     countryCode: UK
     country: United Kingdom
@@ -33,7 +33,8 @@ work:
     highlights: []
     position: Frontend Developer
     startDate: '2020-06-30'
-    summary: Front-End Development on the Preview web SPA used by Art collectors and curators as smart cataloguing tool and for virtual art exhibitions - React, Next.js
+    summary: Front-End Development on the Preview web SPA used by Art collectors and curators as smart cataloguing tool and for virtual art exhibitions.
+    skills: [React, Next.js]
     url: https://preview.art/
     prettyUrl: www.preview.art
 
@@ -44,7 +45,8 @@ work:
     startDate: '2018-09-30'
     summary:
       Design and app / web Development for the credit card product, hiring and
-      training of a front-end team - React Native, TypeScript, Jest, Detox, Next.js
+      training of a front-end team.
+    skills: [React Native, TypeScript, Jest, Detox, Next.js]
     url: https://levelcard.co.uk/
     prettyUrl: www.levelcard.co.uk
 
@@ -53,7 +55,8 @@ work:
     highlights: []
     position: Frontend Developer at DAZN
     startDate: '2018-02-28'
-    summary: Front-end developer consultant - React, MobX, Jest, Micro front-ends
+    summary: Front-end developer consultant.
+    skills: [React, MobX, Jest, Micro front-ends]
     url: https://www.yld.io/
     prettyUrl: www.yld.io
 
@@ -62,9 +65,8 @@ work:
     highlights: []
     position: Frontend Developer
     startDate: '2017-09-30'
-    summary:
-      Design of the main web platform and Isomorphic development - React, Node.js,
-      Redux, Jest, Cucumber, Selenium
+    summary: Design of the main web platform and Isomorphic development.
+    skills: [React, Node.js, Redux, Jest, Cucumber, Selenium]
     url: https://www.lendable.co.uk/
     prettyUrl: www.lendable.co.uk
 
@@ -73,7 +75,8 @@ work:
     highlights: []
     position: Frontend Developer
     startDate: '2017-03-31'
-    summary: Vue.js, Stylus, Flask
+    summary: Full rebuild of the front-end as a SPA using Vue.js.
+    skills: [Vue.js, Stylus, Flask]
     url: https://instnt.com/
     prettyUrl: www.instnt.com
 
@@ -82,7 +85,8 @@ work:
     highlights: []
     position: Co-founder & CPO
     startDate: '2014-12-31'
-    summary: Design, Full-stack development, growth hacking - Angular, Node.js, Stylus,
+    summary: Design, Full-stack development, growth hacking.
+    skills: [Angular, Node.js, Stylus]
     url: https://www.workshape.io/
     prettyUrl: www.workshape.io
 
@@ -91,7 +95,8 @@ work:
     highlights: []
     position: Lead Web Developer
     startDate: '2013-09-30'
-    summary: Full stack and Design, Node.js, Vue.js, Stylus, Mocha.js
+    summary: Started at Kano as the 5th team member, and left the company sized over 50, building most of the web stack and contributing to the design and development of other parts of the product.
+    skills: [Node.js, Vue.js, Stylus, Mocha.js]
     url: https://kano.me/
     prettyUrl: www.kano.me
 
@@ -100,16 +105,18 @@ work:
     highlights: []
     position: Front End Developer & UX/UI Designer
     startDate: '2012-09-30'
-    summary: JavaScript, SCSS, Django
+    summary: While most of my time at Memrise was spent as a front-end developer, for a period I worked full-time on UX design and user testing.
+    skills: [JavaScript, SCSS, Django]
     url: https://www.memrise.com/
     prettyUrl: www.memrise.com
 
   - name: BraveNewTalent
     endDate: '2012-08-31'
     highlights: []
-    position: Junion Front-end Developer & UX Designer
+    position: Junior Front-end Developer & UX Designer
     startDate: '2012-01-31'
-    summary: JavaScript, LESS CSS, HTML, PHP
+    summary: In my junior role at BraveNewTalent I've learned the most valuable lessons in programming best practices and user experience.
+    skills: [JavaScript, LESS CSS, HTML, PHP]
     url: ''
 
   - name: The Crocodile
@@ -117,7 +124,8 @@ work:
     highlights: []
     position: Junior Interactive Designer
     startDate: '2011-02-28'
-    summary: Javascript, HTML, CSS, PHP, ExpressionEngine, Flash & ActionScript
+    summary: At The Crocodile we delivered fully integrated digital marketing campaigns for leading B2B brands.
+    skills: [Javascript, HTML, CSS, PHP, Flash, ActionScript]
     url: https://thecroc.com/
     prettyUrl: www.thecroc.com
 
@@ -126,9 +134,8 @@ work:
     highlights: []
     position: Web Designer and Developer
     startDate: '2010-01-31'
-    summary:
-      Design and delivery of websites and merchandise for clients, Adobe Suite,
-      PHP, HTML, CSS, JavaScript
+    summary: Design and delivery of websites and merchandise for clients, Adobe Suite.
+    skills: PHP, HTML, CSS, JavaScript
     url: ''
 
   - name: Macpro Studio
@@ -136,7 +143,8 @@ work:
     highlights: []
     position: Web Designer and Developer (Internship)
     startDate: '2009-02-28'
-    summary: Adobe Suite, PHP, HTML, CSS, JavaScript
+    summary: Short internship in a supporting role on both design and web development.
+    skills: [Adobe Suite, PHP, HTML, CSS, JavaScript]
     url: ''
 
 volunteer: []
