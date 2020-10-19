@@ -34,7 +34,7 @@ work:
     position: Front-End Developer
     startDate: '2020-06-30'
     summary: Front-End Development on the Preview web SPA used by Art collectors and curators as smart cataloguing tool and for virtual art exhibitions.
-    skills: [React.js, Next.js]
+    skills: [React, Next.js]
     url: https://preview.art/
     prettyUrl: www.preview.art
 
@@ -150,13 +150,14 @@ work:
 volunteer: []
 
 education:
-  - institution: Liceo artistico statale di Brera - Hajech
+  - institution: Liceo artistico di Brera - Hajech
     area: arts, drawing, sculpting, painting
     studyType: Arts diploma
     startDate: '2009-12-31'
     endDate: '2010-12-31'
     gpa: ''
     courses: []
+
   - institution: IPSC Caterina da Siena
     area: graphic design, advertising
     studyType: Qualification for Graphic Design Operator
@@ -164,6 +165,7 @@ education:
     endDate: '2009-12-31'
     gpa: ''
     courses: []
+
   - institution: ENAIP Santander
     area: informatics, electronics, electrics
     studyType: Tecnico Hardware/Software
@@ -171,6 +173,7 @@ education:
     endDate: '2008-12-31'
     gpa: ''
     courses: []
+
 awards: []
 publications: []
 skills:
@@ -180,7 +183,7 @@ skills:
   - name: TypeScript
     level: 8
     keywords: []
-  - name: React.js
+  - name: React
     level: 9
     keywords: []
   - name: React Native
@@ -298,4 +301,64 @@ references:
       with the coding side of things. \r\n\r\nTanc brings an amazing enthusiasm to projects,
       this just made me want to work harder and come up with more interesting things
       for him to build. I would work with Tanc again in a heart beat."
-projects: []
+
+projects:
+  - name: Workshape.io
+    summary: 'The visual job matching platform for developers. The product I’ve co-founded, designed and built brand and the front-end for.'
+    url: https://www.workshape.io/
+    prettyUrl: workshape.io
+
+  - name: Retroospect
+    summary: 'Ideation, design and end-to end build as a Workshape.io side-project. A platform that helps people tracking their happiness at work.'
+    url: https://retroospect.com
+    prettyUrl: retroospect.com
+
+  - name: Job factors infographic
+    summary: An experimental living infographic / survey performed built as Workshape.io side-project.
+    url: http://jobfactors.workshape.io/
+    prettyUrl: jobfactors.workshape.io
+
+  - name: Icon font generator
+    summary: 'An open-source command-line tool to build icon fonts programmaticaly.'
+    url: https://github.com/Workshape/icon-font-generator
+    prettyUrl: github.com/Workshape/icon-font-generator
+
+  - name: Nodeconf London 2016 website
+    summary: 'Branding, design and build of a static website for London Nodeconf 2016. Open-source.'
+    url: http://london.nodeconf.com/
+    prettyUrl: london.nodeconf.com
+
+  - name: Mandi
+    summary: 'An open-source easy to setup Node.js CMS driven uniquely by a JSON schema and configuration.'
+    url: https://github.com/Workshape/mandi
+    prettyUrl: github.com/Workshape/mandi
+
+  - name: DBR website
+    summary: 'Website design, build and process automations for the largest community of inhouse recruiters.'
+    url: http://www.dbr.community/
+    prettyUrl: dbr.community
+
+talks:
+  - name: LXJS 2014
+    location: Lisbon
+    year: 2014
+    topic: Learning happens
+    summary: Introduction to Kano, my company at the time, providing kids with tools and games to spark their interest in becoming makers through technology.
+    url: http://2014.lxjs.org/
+    prettyUrl: 2014.lxjs.org
+
+  - name: LXJS 2013
+    location: Lisbon
+    year: 2013
+    topic: Developing a mobile-first HTML5 game
+    summary: Walk-though of a hybrid, mobile-first game build using Javascript and HTML5 over Cordova.
+    url: http://2013.lxjs.org/
+    prettyUrl: 2013.lxjs.org
+
+  - name: LNUG meetup
+    location: London
+    year: 2012
+    topic: HTML5 and web sockets for multi-player gaming
+    summary: Presentation of a real-time multi-player game protoype built with a colleague at the time, using HTML5 and WebSockets.
+    url: https://lnug.org/
+    prettyUrl: lnug.org

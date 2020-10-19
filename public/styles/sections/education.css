@@ -1,0 +1,15 @@
+.education-entry {
+  margin-bottom: 20px;
+}
+
+.education-entry:last-child {
+  margin-bottom: 0;
+}
+
+.education-entry .degree {
+  margin-bottom: 5px;
+}
+
+.education-entry h3 {
+  margin-bottom: 5px;
+}

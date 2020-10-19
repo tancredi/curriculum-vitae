@@ -1,10 +1,10 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.eot?3d376225cf02cc8c925532b3a3c43be4?#iefix") format("embedded-opentype"),
-url("./icons.woff2?3d376225cf02cc8c925532b3a3c43be4") format("woff2"),
-url("./icons.woff?3d376225cf02cc8c925532b3a3c43be4") format("woff"),
-url("./icons.ttf?3d376225cf02cc8c925532b3a3c43be4") format("truetype"),
-url("./icons.svg?3d376225cf02cc8c925532b3a3c43be4#icons") format("svg");
+    src: url("./icons.eot?7e1f140d6e45750e923fb8bbabfa4288?#iefix") format("embedded-opentype"),
+url("./icons.woff2?7e1f140d6e45750e923fb8bbabfa4288") format("woff2"),
+url("./icons.woff?7e1f140d6e45750e923fb8bbabfa4288") format("woff"),
+url("./icons.ttf?7e1f140d6e45750e923fb8bbabfa4288") format("truetype"),
+url("./icons.svg?7e1f140d6e45750e923fb8bbabfa4288#icons") format("svg");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -96,7 +96,7 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-react-native:before {
     content: "\f11a";
 }
-.icon-reactjs:before {
+.icon-react:before {
     content: "\f11b";
 }
 .icon-redux:before {
