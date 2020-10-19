@@ -2,11 +2,13 @@
   /* Typography */
   --font-face-base: 'Open Sans';
   --font-face-special: 'Gotham';
+  --font-face-mono: 'Monaco', monospace;
 
   /* Base palette */
   --color-white: #fff;
   --color-black: #000;
-  --color-brand: #f42561;
+  --color-brand: #13ddb5;
+  --color-brand-dark: #00bd97;
   --color-gray-dark: #666;
   --color-gray-darker: #333;
   --color-gray: #999;
@@ -19,5 +21,5 @@
   --color-ruler: var(--color-gray-lighter);
   --color-page: var(--color-white);
   --color-background: var(--color-gray-lightest);
-  --color-link: var(--color-brand);
+  --color-link: var(--color-brand-dark);
 }

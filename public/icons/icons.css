@@ -1,10 +1,10 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.eot?04bd1c1029a9343c4aa5f9987c1478b0?#iefix") format("embedded-opentype"),
-url("./icons.woff2?04bd1c1029a9343c4aa5f9987c1478b0") format("woff2"),
-url("./icons.woff?04bd1c1029a9343c4aa5f9987c1478b0") format("woff"),
-url("./icons.ttf?04bd1c1029a9343c4aa5f9987c1478b0") format("truetype"),
-url("./icons.svg?04bd1c1029a9343c4aa5f9987c1478b0#icons") format("svg");
+    src: url("./icons.eot?3d376225cf02cc8c925532b3a3c43be4?#iefix") format("embedded-opentype"),
+url("./icons.woff2?3d376225cf02cc8c925532b3a3c43be4") format("woff2"),
+url("./icons.woff?3d376225cf02cc8c925532b3a3c43be4") format("woff"),
+url("./icons.ttf?3d376225cf02cc8c925532b3a3c43be4") format("truetype"),
+url("./icons.svg?3d376225cf02cc8c925532b3a3c43be4#icons") format("svg");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -18,21 +18,108 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-chevron-right:before {
+.icon-actionscript:before {
     content: "\f101";
 }
-.icon-email:before {
+.icon-adobe-suite:before {
     content: "\f102";
 }
-.icon-github:before {
+.icon-chevron-right:before {
     content: "\f103";
 }
-.icon-linkedin:before {
+.icon-css:before {
     content: "\f104";
 }
-.icon-phone:before {
+.icon-cucumber:before {
     content: "\f105";
 }
-.icon-pin:before {
+.icon-detox:before {
     content: "\f106";
+}
+.icon-django:before {
+    content: "\f107";
+}
+.icon-email:before {
+    content: "\f108";
+}
+.icon-flask:before {
+    content: "\f109";
+}
+.icon-github:before {
+    content: "\f10a";
+}
+.icon-html5:before {
+    content: "\f10b";
+}
+.icon-illustrator:before {
+    content: "\f10c";
+}
+.icon-javascript:before {
+    content: "\f10d";
+}
+.icon-jest:before {
+    content: "\f10e";
+}
+.icon-less:before {
+    content: "\f10f";
+}
+.icon-linkedin:before {
+    content: "\f110";
+}
+.icon-micro-front-ends:before {
+    content: "\f111";
+}
+.icon-mobx:before {
+    content: "\f112";
+}
+.icon-mocha:before {
+    content: "\f113";
+}
+.icon-nextjs:before {
+    content: "\f114";
+}
+.icon-nodejs:before {
+    content: "\f115";
+}
+.icon-phone:before {
+    content: "\f116";
+}
+.icon-photoshop:before {
+    content: "\f117";
+}
+.icon-php:before {
+    content: "\f118";
+}
+.icon-pin:before {
+    content: "\f119";
+}
+.icon-react-native:before {
+    content: "\f11a";
+}
+.icon-reactjs:before {
+    content: "\f11b";
+}
+.icon-redux:before {
+    content: "\f11c";
+}
+.icon-sassscss:before {
+    content: "\f11d";
+}
+.icon-scss:before {
+    content: "\f11e";
+}
+.icon-selenium:before {
+    content: "\f11f";
+}
+.icon-sketch:before {
+    content: "\f120";
+}
+.icon-stylus:before {
+    content: "\f121";
+}
+.icon-typescript:before {
+    content: "\f122";
+}
+.icon-vuejs:before {
+    content: "\f123";
 }

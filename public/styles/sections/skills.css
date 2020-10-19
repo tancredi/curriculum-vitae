@@ -1,0 +1,37 @@
+.skill-tag {
+  font-family: var(--font-face-mono);
+  font-size: 12px;
+  color: var(--color-gray-dark);
+}
+
+.skill-tag i {
+  color: var(--color-gray-light);
+  font-size: 16px;
+  display: inline-block;
+  margin: -1px 3px -1px 0;
+}
+
+.skills-list .skill {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills-list .skill .skill-tag {
+  width: 120px;
+}
+
+.skills-list .skill .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background: var(--color-gray-lighter);
+}
+
+.skills-list .skill .fill {
+  height: 100%;
+  background: var(--color-brand);
+  border-radius: 100%;
+}

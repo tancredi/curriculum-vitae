@@ -1,6 +1,6 @@
 basics:
   name: Tancredi Trugenberger
-  label: Senior Frontend Developer
+  label: Senior Front-End Developer
   email: tancredi@pxld.co.uk
   phone: '+447593067780'
   prettyPhone: '075 9306 7780'
@@ -31,17 +31,17 @@ work:
   - name: Preview
     endDate: ''
     highlights: []
-    position: Frontend Developer
+    position: Front-End Developer
     startDate: '2020-06-30'
     summary: Front-End Development on the Preview web SPA used by Art collectors and curators as smart cataloguing tool and for virtual art exhibitions.
-    skills: [React, Next.js]
+    skills: [React.js, Next.js]
     url: https://preview.art/
     prettyUrl: www.preview.art
 
   - name: Lendable (Level Card)
     endDate: '2020-04-30'
     highlights: []
-    position: Lead Frontend Developer
+    position: Lead Front-End Developer
     startDate: '2018-09-30'
     summary:
       Design and app / web Development for the credit card product, hiring and
@@ -53,9 +53,9 @@ work:
   - name: YLD
     endDate: '2018-07-31'
     highlights: []
-    position: Frontend Developer at DAZN
+    position: Front-End Developer at DAZN
     startDate: '2018-02-28'
-    summary: Front-end developer consultant.
+    summary: Front-End developer consultant.
     skills: [React, MobX, Jest, Micro front-ends]
     url: https://www.yld.io/
     prettyUrl: www.yld.io
@@ -63,7 +63,7 @@ work:
   - name: Lendable
     endDate: '2018-01-31'
     highlights: []
-    position: Frontend Developer
+    position: Front-End Developer
     startDate: '2017-09-30'
     summary: Design of the main web platform and Isomorphic development.
     skills: [React, Node.js, Redux, Jest, Cucumber, Selenium]
@@ -73,7 +73,7 @@ work:
   - name: Instnt Recruitment
     endDate: '2017-08-31'
     highlights: []
-    position: Frontend Developer
+    position: Front-End Developer
     startDate: '2017-03-31'
     summary: Full rebuild of the front-end as a SPA using Vue.js.
     skills: [Vue.js, Stylus, Flask]
@@ -96,14 +96,14 @@ work:
     position: Lead Web Developer
     startDate: '2013-09-30'
     summary: Started at Kano as the 5th team member, and left the company sized over 50, building most of the web stack and contributing to the design and development of other parts of the product.
-    skills: [Node.js, Vue.js, Stylus, Mocha.js]
+    skills: [Node.js, Vue.js, Stylus, Mocha]
     url: https://kano.me/
     prettyUrl: www.kano.me
 
   - name: Memrise
     endDate: '2013-09-30'
     highlights: []
-    position: Front End Developer & UX/UI Designer
+    position: Front End Developer / UX Designer
     startDate: '2012-09-30'
     summary: While most of my time at Memrise was spent as a front-end developer, for a period I worked full-time on UX design and user testing.
     skills: [JavaScript, SCSS, Django]
@@ -113,10 +113,10 @@ work:
   - name: BraveNewTalent
     endDate: '2012-08-31'
     highlights: []
-    position: Junior Front-end Developer & UX Designer
+    position: Junior Front-End Developer & UX Designer
     startDate: '2012-01-31'
     summary: In my junior role at BraveNewTalent I've learned the most valuable lessons in programming best practices and user experience.
-    skills: [JavaScript, LESS CSS, HTML, PHP]
+    skills: [JavaScript, LESS, HTML5, PHP]
     url: ''
 
   - name: The Crocodile
@@ -125,7 +125,7 @@ work:
     position: Junior Interactive Designer
     startDate: '2011-02-28'
     summary: At The Crocodile we delivered fully integrated digital marketing campaigns for leading B2B brands.
-    skills: [Javascript, HTML, CSS, PHP, Flash, ActionScript]
+    skills: [Javascript, HTML5, CSS, PHP, Flash, ActionScript]
     url: https://thecroc.com/
     prettyUrl: www.thecroc.com
 
@@ -175,55 +175,52 @@ awards: []
 publications: []
 skills:
   - name: JavaScript
-    level: ''
+    level: 10
     keywords: []
   - name: TypeScript
-    level: ''
+    level: 8
     keywords: []
   - name: React.js
-    level: ''
+    level: 9
     keywords: []
   - name: React Native
-    level: ''
+    level: 7
     keywords: []
   - name: Vue.js
-    level: ''
+    level: 5
     keywords: []
   - name: MobX
-    level: ''
+    level: 7
     keywords: []
   - name: Redux
-    level: ''
+    level: 6
     keywords: []
   - name: Node.js
-    level: ''
+    level: 7
     keywords: []
   - name: HTML5
-    level: ''
+    level: 10
     keywords: []
   - name: CSS
-    level: ''
+    level: 10
     keywords: []
   - name: SASS/SCSS
-    level: ''
+    level: 7
     keywords: []
   - name: LESS
-    level: ''
+    level: 5
     keywords: []
   - name: Stylus
-    level: ''
+    level: 8
     keywords: []
   - name: Sketch
-    level: ''
+    level: 6
     keywords: []
   - name: Photoshop
-    level: ''
+    level: 9
     keywords: []
   - name: Illustrator
-    level: ''
-    keywords: []
-  - name: Photoshop
-    level: ''
+    level: 9
     keywords: []
 languages:
   - language: it

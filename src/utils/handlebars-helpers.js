@@ -1,9 +1,12 @@
 const slug = require('slug');
 const moment = require('moment');
+const marked = require('marked');
 
 exports.lower = (str) => str.toLowerCase();
 
 exports.fallback = (str, fallback) => str || fallback;
+
+exports.markdown = (str) => marked(str);
 
 exports.date = (str, format, fallback) => {
   if (!str) {
@@ -12,6 +15,20 @@ exports.date = (str, format, fallback) => {
 
   return moment(str, 'YYYY-MM-DD').format(format);
 };
+
+exports.eachRange = (count, options) =>
+  new Array(count)
+    .fill(null)
+    .map((_, i) => options.fn(i))
+    .join('');
+
+exports.gte = (a, b, options) => (a >= b ? options.fn() : null);
+
+exports.gt = (a, b, options) => (a > b ? options.fn() : null);
+
+exports.lte = (a, b, options) => (a <= b ? options.fn() : null);
+
+exports.lt = (a, b, options) => (a < b ? options.fn() : null);
 
 exports.eachColumn = (values, columnsCount, options) => {
   const columns = [];

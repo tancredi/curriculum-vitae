@@ -60,64 +60,100 @@
       </div>
     </section>
 
-    <!-- Work -->
+    <!-- Layout -->
+    <div class="main-columns">
+      <div class="column-left">
+        <!-- Profile -->
+        <section class="section-profile">
+          <h2>Profile</h2>
 
-    <section class="section-work">
-      <h2>Work</h2>
+          {{{markdown basics.summary}}}
+        </section>
 
-      <div class="jobs-grid">
-        {{#eachColumn work 2}}
+        <!-- Work -->
 
-        <div class="col">
-          {{#each this}}
-          <div class="job">
-            <!-- {{#listDiffRender @root.work this 'asc'}}
+        <section class="section-work">
+          <h2>Work</h2>
+
+          <div class="jobs-grid">
+            {{#each work}}
+            <div class="job">
+              <!-- {{#listDiffRender @root.work this 'asc'}}
             <div class="year-counter">
               <div class="counter">{{date startDate 'YYYY'}}</div>
             </div>
             {{/listDiffRender}} -->
 
-            <img
-              class="logo"
-              src="/assets/companies/{{slug name}}-icon.svg"
-              alt="{{name}} logo"
-            />
+              <img
+                class="logo"
+                src="/assets/companies/{{slug name}}-icon.svg"
+                alt="{{name}} logo"
+              />
 
-            <div class="content">
-              <div class="heading">
-                <h3>{{name}}</h3>
+              <div class="content">
+                <div class="heading">
+                  <h3>{{name}}</h3>
+                </div>
 
-                <p class="period">
-                  {{date startDate 'MMM YYYY'}}
-                  <span>-</span>
-                  {{date endDate 'MMM YYYY''Present'}}
+                <div class="detail">
+                  <h4>{{position}}</h4>
+
+                  <p class="period">
+                    {{date startDate 'MMM YYYY'}}
+                    <span>-</span>
+                    {{date endDate 'MMM YYYY''Present'}}
+                  </p>
+                </div>
+
+                <p>{{summary}}</p>
+
+                {{#if url}}
+                <p>
+                  <a href="{{url}}" target="_blank">
+                    {{fallback prettyUrl url}}
+                    <i class="icon-chevron-right"></i>
+                  </a>
                 </p>
-              </div>
 
-              <div class="detail">
-                <h4>{{position}}</h4>
-              </div>
+                <p>{{/if}}</p>
 
-              <p>
-                {{summary}} {{#if url}}
-                <a href="{{url}}" target="_blank">
-                  {{fallback prettyUrl url}}
-                  <i class="icon-chevron-right"></i>
-                </a>
-                {{/if}}
-              </p>
-
-              <div class="skills">
-                {{#each skills}}<span>{{this}}</span>{{/each}}
+                <div class="skills">
+                  {{#each skills}}<span class="skill-tag"
+                    ><i class="icon-{{slug this}}"></i> {{this}}</span
+                  >{{/each}}
+                </div>
               </div>
             </div>
+            {{/each}}
           </div>
-          {{/each}}
-        </div>
-
-        {{/eachColumn}}
+        </section>
       </div>
-    </section>
+
+      <div class="column-right">
+        <!-- Skills -->
+        <section class="section-skills">
+          <h2>Skills</h2>
+
+          <div class="skills-list">
+            {{#each skills}}
+            <div class="skill">
+              <div class="skill-tag">
+                <i class="icon-{{slug name}}"></i> {{name}}
+              </div>
+
+              {{#eachRange 10}}
+              <div class="dot">
+                {{#lt this ../level}}
+                <div class="fill"></div>
+                {{/lt}}
+              </div>
+              {{/eachRange}}
+            </div>
+            {{/each}}
+          </div>
+        </section>
+      </div>
+    </div>
   </div>
 
   <body></body>

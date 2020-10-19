@@ -37,3 +37,16 @@ section {
 section h2 {
   margin-bottom: 30px;
 }
+
+.main-columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-columns .column-left {
+  width: 60%;
+}
+
+.main-columns .column-right {
+  width: 40%;
+}
