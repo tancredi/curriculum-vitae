@@ -50,7 +50,3 @@ section h2 {
 .main-columns .column-right {
   width: 45%;
 }
-
-.main-columns .column-right section {
-  page-break-inside: avoid;
-}

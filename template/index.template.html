@@ -73,92 +73,108 @@
         <!-- Work -->
 
         <section class="section-work">
-          <h2>Work</h2>
+          <table class="items-list">
+            <thead>
+              <tr>
+                <th><h2>Work</h2></th>
+              </tr>
+            </thead>
 
-          <div class="jobs-grid">
-            {{#each work}}
-            <div class="job">
-              <!-- {{#listDiffRender @root.work this 'asc'}}
-            <div class="year-counter">
-              <div class="counter">{{date startDate 'YYYY'}}</div>
-            </div>
-            {{/listDiffRender}} -->
-
-              <img
-                class="logo"
-                src="/assets/companies/{{slug name}}-icon.svg"
-                alt="{{name}} logo"
-              />
-
-              <div class="content">
-                <div class="heading">
-                  <h3>{{name}}</h3>
+            <tbody>
+              {{#each work}}
+              <tr>
+                <td class="item job">
+                  <!-- {{#listDiffRender @root.work this 'asc'}}
+                <div class="year-counter">
+                  <div class="counter">{{date startDate 'YYYY'}}</div>
                 </div>
+                {{/listDiffRender}} -->
 
-                <div class="detail">
-                  <h4>{{position}}</h4>
+                  <img
+                    class="logo"
+                    src="/assets/companies/{{slug name}}-icon.svg"
+                    alt="{{name}} logo"
+                  />
 
-                  <p class="period text-meta">
-                    {{date startDate 'MMM YYYY'}}
-                    <span>-</span>
-                    {{date endDate 'MMM YYYY''Present'}}
-                  </p>
-                </div>
+                  <div class="content">
+                    <div class="heading">
+                      <h3>{{name}}</h3>
+                    </div>
 
-                <p>{{summary}}</p>
+                    <div class="detail">
+                      <h4>{{position}}</h4>
 
-                {{#if url}}
-                <p>
-                  <a class="resource-link" href="{{url}}" target="_blank">
-                    {{fallback prettyUrl url}}
-                    <i class="icon-chevron-right"></i>
-                  </a>
-                </p>
+                      <p class="period text-meta">
+                        {{date startDate 'MMM YYYY'}}
+                        <span>-</span>
+                        {{date endDate 'MMM YYYY''Present'}}
+                      </p>
+                    </div>
 
-                {{/if}}
+                    <p>{{summary}}</p>
 
-                <div class="skills">
-                  {{#each skills}}<span class="skill-tag"
-                    ><i class="icon-{{slug this}}"></i> {{this}}</span
-                  >{{/each}}
-                </div>
-              </div>
-            </div>
-            {{/each}}
-          </div>
+                    {{#if url}}
+                    <p>
+                      <a class="resource-link" href="{{url}}" target="_blank">
+                        {{fallback prettyUrl url}}
+                        <i class="icon-chevron-right"></i>
+                      </a>
+                    </p>
+
+                    {{/if}}
+
+                    <div class="skills">
+                      {{#each skills}}<span class="skill-tag"
+                        ><i class="icon-{{slug this}}"></i> {{this}}</span
+                      >{{/each}}
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              {{/each}}
+            </tbody>
+          </table>
         </section>
       </div>
 
       <div class="column-right">
         <!-- Projects -->
         <section class="section-projects">
-          <h2>Projects</h2>
+          <table class="items-list projects-list">
+            <thead>
+              <tr>
+                <th><h2>Projects</h2></th>
+              </tr>
+            </thead>
 
-          <div class="jobs-grid projects-list">
-            {{#each projects}}
-            <div class="job project">
-              <img
-                class="logo"
-                src="/assets/projects/{{slug name}}-icon.svg"
-                alt="{{name}} logo"
-              />
+            <tbody>
+              {{#each projects}}
+              <tr>
+                <td class="item project">
+                  <img
+                    class="logo"
+                    src="/assets/projects/{{slug name}}-icon.svg"
+                    alt="{{name}} logo"
+                  />
 
-              <div class="content">
-                <div class="heading">
-                  <h3>{{name}}</h3>
-                </div>
+                  <div class="content">
+                    <div class="heading">
+                      <h3>{{name}}</h3>
+                    </div>
 
-                <p class="summary">{{summary}}</p>
+                    <p class="summary">{{summary}}</p>
 
-                <p>
-                  <a class="resource-link" href="{{url}}" target="_blank">
-                    {{prettyUrl}} <i class="icon-chevron-right"></i>
-                  </a>
-                </p>
-              </div>
-            </div>
-            {{/each}}
-          </div>
+                    <p>
+                      <a class="resource-link" href="{{url}}" target="_blank">
+                        {{prettyUrl}} <i class="icon-chevron-right"></i>
+                      </a>
+                    </p>
+                  </div>
+                  {{/each}}
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </section>
 
         <!-- Skills -->
@@ -186,40 +202,48 @@
 
         <!-- Talks -->
         <section class="section-talks">
-          <h2>Talks</h2>
+          <table class="items-list talks-list">
+            <thead>
+              <tr>
+                <th><h2>Talks</h2></th>
+              </tr>
+            </thead>
 
-          <div class="jobs-grid talks-list">
-            {{#each talks}}
-            <div class="job talk">
-              <img
-                class="logo"
-                src="/assets/talks/{{slug name}}-icon.svg"
-                alt="{{name}} logo"
-              />
+            <tbody>
+              {{#each talks}}
+              <tr>
+                <td class="item talk">
+                  <img
+                    class="logo"
+                    src="/assets/talks/{{slug name}}-icon.svg"
+                    alt="{{name}} logo"
+                  />
 
-              <div class="content">
-                <div class="heading">
-                  <h3>{{name}}</h3>
+                  <div class="content">
+                    <div class="heading">
+                      <h3>{{name}}</h3>
 
-                  <p class="period text-meta">{{year}} - {{location}}</p>
+                      <p class="period text-meta">{{year}} - {{location}}</p>
 
-                  <p></p>
-                </div>
+                      <p></p>
+                    </div>
 
-                <div class="detail"><h4>{{topic}}</h4></div>
+                    <div class="detail"><h4>{{topic}}</h4></div>
 
-                <p class="summary">{{summary}}</p>
+                    <p class="summary">{{summary}}</p>
 
-                <p>
-                  <a class="resource-link" href="{{url}}" target="_blank">
-                    {{fallback prettyUrl url}}
-                    <i class="icon-chevron-right"></i>
-                  </a>
-                </p>
-              </div>
-            </div>
-            {{/each}}
-          </div>
+                    <p>
+                      <a class="resource-link" href="{{url}}" target="_blank">
+                        {{fallback prettyUrl url}}
+                        <i class="icon-chevron-right"></i>
+                      </a>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              {{/each}}
+            </tbody>
+          </table>
         </section>
 
         <!-- Education -->

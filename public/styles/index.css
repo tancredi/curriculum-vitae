@@ -6,6 +6,7 @@
 @import './fonts.css';
 @import './layout.css';
 @import './typography.css';
+@import './items-list.css';
 @import './sections/basics.css';
 @import './sections/work.css';
 @import './sections/skills.css';
