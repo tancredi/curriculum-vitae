@@ -1,0 +1,73 @@
+<tr>
+  <td class="item talk">
+    <img
+      class="logo"
+      src="/assets/{{iconsDir}}/{{slug name}}-icon.svg"
+      alt="{{name}} logo"
+    />
+
+    <div class="content">
+      <div class="heading">
+        <h3>{{name}}</h3>
+
+        <!--  -->
+
+        {{#if startDate}}
+        <p class="meta text-meta">
+          {{date startDate 'MMM YYYY'}}
+          <span>-</span>
+          {{date endDate 'MMM YYYY''Present'}}
+        </p>
+        {{/if}}
+
+        <!--  -->
+
+        {{#if year}}
+        <p class="meta text-meta">{{year}} - {{location}}</p>
+        {{/if}}
+      </div>
+
+      {{#if subtitle}}
+      <div class="detail">
+        <h4>{{subtitle}}</h4>
+      </div>
+      {{/if}}
+
+      <!--  -->
+
+      {{#if summary}}
+      <p class="summary">
+        {{summary}}
+
+        <!--  -->
+
+        {{#if url}}
+        <a class="resource-link" href="{{url}}" target="_blank">
+          {{prettyUrl}}
+          <i class="icon-chevron-right"></i>
+        </a>
+        {{/if}}
+      </p>
+      {{/if}}
+
+      <!--  -->
+
+      <!-- {{#if url}}
+      <p>
+        <a class="resource-link" href="{{url}}" target="_blank">
+          {{fallback prettyUrl url}}
+          <i class="icon-chevron-right"></i>
+        </a>
+      </p>
+      {{/if}} -->
+
+      <!--  -->
+
+      {{#if skills}}
+      <div class="skills">
+        {{#each skills}}<span class="skill-tag"> {{this}}</span>{{/each}}
+      </div>
+      {{/if}}
+    </div>
+  </td>
+</tr>

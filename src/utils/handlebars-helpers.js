@@ -1,14 +1,17 @@
+const Handlebars = require('handlebars');
 const slug = require('slug');
 const moment = require('moment');
 const marked = require('marked');
 
-exports.lower = (str) => str.toLowerCase();
+const helpers = {};
 
-exports.fallback = (str, fallback) => str || fallback;
+helpers.lower = (str) => str.toLowerCase();
 
-exports.markdown = (str) => marked(str);
+helpers.fallback = (str, fallback) => str || fallback;
 
-exports.date = (str, format, fallback) => {
+helpers.markdown = (str) => marked(str);
+
+helpers.date = (str, format, fallback) => {
   if (!str) {
     return fallback;
   }
@@ -16,21 +19,21 @@ exports.date = (str, format, fallback) => {
   return moment(str, 'YYYY-MM-DD').format(format);
 };
 
-exports.eachRange = (count, options) =>
+helpers.eachRange = (count, options) =>
   new Array(count)
     .fill(null)
     .map((_, i) => options.fn(i))
     .join('');
 
-exports.gte = (a, b, options) => (a >= b ? options.fn() : null);
+helpers.gte = (a, b, options) => (a >= b ? options.fn() : null);
 
-exports.gt = (a, b, options) => (a > b ? options.fn() : null);
+helpers.gt = (a, b, options) => (a > b ? options.fn() : null);
 
-exports.lte = (a, b, options) => (a <= b ? options.fn() : null);
+helpers.lte = (a, b, options) => (a <= b ? options.fn() : null);
 
-exports.lt = (a, b, options) => (a < b ? options.fn() : null);
+helpers.lt = (a, b, options) => (a < b ? options.fn() : null);
 
-exports.eachColumn = (values, columnsCount, options) => {
+helpers.eachColumn = (values, columnsCount, options) => {
   const columns = [];
   const rowsCount = Math.round(values.length / columnsCount);
 
@@ -48,7 +51,7 @@ exports.eachColumn = (values, columnsCount, options) => {
   return columns.map(options.fn).join('');
 };
 
-exports.listDiffRender = (list, entry, dir, options) => {
+helpers.listDiffRender = (list, entry, dir, options) => {
   const index = list.indexOf(entry);
   const adjacent = list[dir === 'disc' ? index - 1 : index + 1];
   const render = (value) => options.fn(value);
@@ -67,4 +70,9 @@ exports.listDiffRender = (list, entry, dir, options) => {
   return null;
 };
 
-exports.slug = (str) => slug(str);
+helpers.slug = (str) => slug(str);
+
+exports.register = () =>
+  Object.keys(helpers).forEach((key) =>
+    Handlebars.registerHelper(key, helpers[key])
+  );

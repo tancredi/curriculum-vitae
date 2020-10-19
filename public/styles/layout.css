@@ -27,7 +27,7 @@ body {
 
 section {
   display: block;
-  padding: 30px;
+  padding: 20px 0;
 }
 
 .ruled {
@@ -41,6 +41,7 @@ section h2 {
 .main-columns {
   display: flex;
   flex-direction: row;
+  padding: 20px 30px 0;
 }
 
 .main-columns .column-left {
@@ -48,5 +49,6 @@ section h2 {
 }
 
 .main-columns .column-right {
-  width: 45%;
+  flex: 1;
+  margin-left: 20px;
 }

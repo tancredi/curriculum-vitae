@@ -178,52 +178,52 @@ awards: []
 publications: []
 skills:
   - name: JavaScript
-    level: 10
+    level: 5
     keywords: []
   - name: TypeScript
-    level: 8
+    level: 4
     keywords: []
   - name: React
-    level: 9
+    level: 5
     keywords: []
   - name: React Native
-    level: 7
+    level: 3
     keywords: []
   - name: Vue.js
-    level: 5
+    level: 2
     keywords: []
   - name: MobX
-    level: 7
-    keywords: []
-  - name: Redux
-    level: 6
-    keywords: []
-  - name: Node.js
-    level: 7
-    keywords: []
-  - name: HTML5
-    level: 10
-    keywords: []
-  - name: CSS
-    level: 10
-    keywords: []
-  - name: SASS/SCSS
-    level: 7
-    keywords: []
-  - name: LESS
     level: 5
     keywords: []
+  - name: Redux
+    level: 3
+    keywords: []
+  - name: Node.js
+    level: 4
+    keywords: []
+  - name: HTML5
+    level: 5
+    keywords: []
+  - name: CSS
+    level: 5
+    keywords: []
+  - name: SASS/SCSS
+    level: 3
+    keywords: []
+  - name: LESS
+    level: 2
+    keywords: []
   - name: Stylus
-    level: 8
+    level: 5
     keywords: []
   - name: Sketch
-    level: 6
+    level: 5
     keywords: []
   - name: Photoshop
-    level: 9
+    level: 5
     keywords: []
   - name: Illustrator
-    level: 9
+    level: 5
     keywords: []
 languages:
   - language: it
@@ -241,12 +241,14 @@ references:
       and put up a Continuous Integration pipeline. I don't know that many people who
       can do so many things and do them well. And did I tell you that he always thinks
       about the user and the product? Well, now you know! "
+
   - name: Livia van Strydonck
     reference:
       I've had the pleasure of working with Tanc at Lendable and at Kano across
       various different projects. He is a fantastic designer and a brilliant software
       engineer. I know I can rely on Tanc to deliver beautiful work, fast and with a
       lot of humour.
+
   - name: Riccardo Cocetta
     reference:
       "I worked with Tanc at Kano and YLD, and knowing him made me realise
@@ -256,10 +258,12 @@ references:
       could entrust him as a partner with high level objectives and rely that he would
       drive the team to deliver on those.  If I could, I would hire Tanc to work with
       me at any company ... but he doesn't always want to join. "
+
   - name: Yonatan Raz-Fridman
     reference:
       'Tank is a talented creator, thrives on solving problems in creative
       ways through design and code. '
+
   - name: Tommy Säl
     reference:
       "Tancredi is a highly skilled, well spoken, easy to work with developer
@@ -268,17 +272,20 @@ references:
       with him you'll realise hes a jack of all trades – and mastering most of them.\r\n\r\nI'd
       recommend Tanc to anyone who needs an eccentric (in a good way) developer with
       a lot of passion."
+
   - name: Mathew Keegan
     reference:
       Tanc is without a doubt one of the most talented and creative people
       I've ever met. He can work in any part of the stack, and single handedly created
       an entire social platform for Kano and released a fantastically addictive code
       drawing app that is loved by thousands.
+
   - name: Edward Cooke
     reference:
       "Tanc's an extremely gifted designer/developer, with a flair for producing
       beautiful things at speed. His skill and experience go far beyond his age. He's
       passionate, insightful and iconoclastic. All in all: a very talented young entrepreneur. "
+
   - name: Alex Klein
     reference:
       Tancredi Trugenberger is a one-off – a uniquely talented, thoughtful,
@@ -289,11 +296,13 @@ references:
       him to test, explore, and validate in the time it takes most engineers to brew
       the coffee. We're glad to have him contributing to the Kano Product and can fully
       endorse any of his outside ventures as well.
+
   - name: Adam Johnson
     reference:
       Tanc is a perfectionist and works tirelessly to ensure every pixel and
       interaction is in place. He often adds special flair to projects beyond the call
       of duty.
+
   - name: Kevin Rooney
     reference:
       "Tanc has an amazing skill set. Its rare to find someone with such a

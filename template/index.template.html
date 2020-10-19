@@ -73,108 +73,30 @@
         <!-- Work -->
 
         <section class="section-work">
-          <table class="items-list">
-            <thead>
-              <tr>
-                <th><h2>Work</h2></th>
-              </tr>
-            </thead>
-
-            <tbody>
-              {{#each work}}
-              <tr>
-                <td class="item job">
-                  <!-- {{#listDiffRender @root.work this 'asc'}}
-                <div class="year-counter">
-                  <div class="counter">{{date startDate 'YYYY'}}</div>
-                </div>
-                {{/listDiffRender}} -->
-
-                  <img
-                    class="logo"
-                    src="/assets/companies/{{slug name}}-icon.svg"
-                    alt="{{name}} logo"
-                  />
-
-                  <div class="content">
-                    <div class="heading">
-                      <h3>{{name}}</h3>
-                    </div>
-
-                    <div class="detail">
-                      <h4>{{position}}</h4>
-
-                      <p class="period text-meta">
-                        {{date startDate 'MMM YYYY'}}
-                        <span>-</span>
-                        {{date endDate 'MMM YYYY''Present'}}
-                      </p>
-                    </div>
-
-                    <p>{{summary}}</p>
-
-                    {{#if url}}
-                    <p>
-                      <a class="resource-link" href="{{url}}" target="_blank">
-                        {{fallback prettyUrl url}}
-                        <i class="icon-chevron-right"></i>
-                      </a>
-                    </p>
-
-                    {{/if}}
-
-                    <div class="skills">
-                      {{#each skills}}<span class="skill-tag"
-                        ><i class="icon-{{slug this}}"></i> {{this}}</span
-                      >{{/each}}
-                    </div>
-                  </div>
-                </td>
-              </tr>
-              {{/each}}
-            </tbody>
-          </table>
+          {{#> items-list title='Work'}}
+          <!--  -->
+          {{#each work}}
+          <!--  -->
+          {{> list-item iconsDir='companies' subtitle=position}}
+          <!--  -->
+          {{/each}}
+          <!--  -->
+          {{/items-list}}
         </section>
       </div>
 
       <div class="column-right">
         <!-- Projects -->
         <section class="section-projects">
-          <table class="items-list projects-list">
-            <thead>
-              <tr>
-                <th><h2>Projects</h2></th>
-              </tr>
-            </thead>
-
-            <tbody>
-              {{#each projects}}
-              <tr>
-                <td class="item project">
-                  <img
-                    class="logo"
-                    src="/assets/projects/{{slug name}}-icon.svg"
-                    alt="{{name}} logo"
-                  />
-
-                  <div class="content">
-                    <div class="heading">
-                      <h3>{{name}}</h3>
-                    </div>
-
-                    <p class="summary">{{summary}}</p>
-
-                    <p>
-                      <a class="resource-link" href="{{url}}" target="_blank">
-                        {{prettyUrl}} <i class="icon-chevron-right"></i>
-                      </a>
-                    </p>
-                  </div>
-                  {{/each}}
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          {{#> items-list title='Projects'}}
+          <!--  -->
+          {{#each projects}}
+          <!--  -->
+          {{> list-item iconsDir='projects'}}
+          <!--  -->
+          {{/each}}
+          <!--  -->
+          {{/items-list}}
         </section>
 
         <!-- Skills -->
@@ -188,7 +110,7 @@
                 <i class="icon-{{slug name}}"></i> {{name}}
               </div>
 
-              {{#eachRange 10}}
+              {{#eachRange 5}}
               <div class="dot">
                 {{#lt this ../level}}
                 <div class="fill"></div>
@@ -202,48 +124,15 @@
 
         <!-- Talks -->
         <section class="section-talks">
-          <table class="items-list talks-list">
-            <thead>
-              <tr>
-                <th><h2>Talks</h2></th>
-              </tr>
-            </thead>
-
-            <tbody>
-              {{#each talks}}
-              <tr>
-                <td class="item talk">
-                  <img
-                    class="logo"
-                    src="/assets/talks/{{slug name}}-icon.svg"
-                    alt="{{name}} logo"
-                  />
-
-                  <div class="content">
-                    <div class="heading">
-                      <h3>{{name}}</h3>
-
-                      <p class="period text-meta">{{year}} - {{location}}</p>
-
-                      <p></p>
-                    </div>
-
-                    <div class="detail"><h4>{{topic}}</h4></div>
-
-                    <p class="summary">{{summary}}</p>
-
-                    <p>
-                      <a class="resource-link" href="{{url}}" target="_blank">
-                        {{fallback prettyUrl url}}
-                        <i class="icon-chevron-right"></i>
-                      </a>
-                    </p>
-                  </div>
-                </td>
-              </tr>
-              {{/each}}
-            </tbody>
-          </table>
+          {{#> items-list title='Talks'}}
+          <!--  -->
+          {{#each talks}}
+          <!--  -->
+          {{> list-item iconsDir='talks'}}
+          <!--  -->
+          {{/each}}
+          <!--  -->
+          {{/items-list}}
         </section>
 
         <!-- Education -->
