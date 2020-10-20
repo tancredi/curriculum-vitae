@@ -35,7 +35,7 @@ section {
 }
 
 section h2,
-section h2:last-child {
+thead h2 {
   margin-bottom: 20px;
 }
 
