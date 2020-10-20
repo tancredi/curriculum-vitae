@@ -6,9 +6,15 @@ basics:
   prettyPhone: '075 9306 7780'
   url: ''
   summary: |-
-    Building products end-to-end, design to full-stack development.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+    malesuada ante nec tortor vulputate, quis sagittis enim consequat.
 
-    Co-Founder, front-end developer contractor.
+    Maecenas tempus odio est, ut varius nunc blandit sed.
+    Pellentesque consequat ac dolor vitae porttitor.
+
+    Mauris dui odio, tincidunt eget neque ac, ultricies pretium ante.
+    Cras finibus diam a ipsum consequat imperdiet. Maecenas sapien neque,
+    mollis et pulvinar non, gravida eu sem.
 
   location:
     address: ['Flat 6 Reflection House', '112A Cheshire st']
@@ -268,7 +274,10 @@ work:
     highlights: []
     position: Junior Front-End Developer & UX Designer
     startDate: '2012-01-31'
-    summary: In my junior role at BraveNewTalent I've learned the most valuable lessons in programming best practices and user experience.
+    summary: "
+      In my junior role at BraveNewTalent I've learned the most valuable
+      lessons in programming best practices and user experience.
+      "
     skills: [JavaScript, LESS, HTML5, PHP]
     url: ''
 
@@ -277,7 +286,10 @@ work:
     highlights: []
     position: Junior Interactive Designer
     startDate: '2011-02-28'
-    summary: At The Crocodile we delivered fully integrated digital marketing campaigns for leading B2B brands.
+    summary: '
+      At The Crocodile we delivered fully integrated digital marketing campaigns
+      for leading B2B brands.
+      '
     skills: [Javascript, HTML5, CSS, PHP, Flash, ActionScript]
     url: https://thecroc.com/
     prettyUrl: www.thecroc.com
@@ -287,7 +299,9 @@ work:
     highlights: []
     position: Web Designer and Developer
     startDate: '2010-01-31'
-    summary: Design and delivery of websites and merchandise for clients, Adobe Suite.
+    summary: '
+      Design and delivery of websites and merchandise for clients, Adobe Suite.
+      '
     skills: PHP, HTML, CSS, JavaScript
     url: ''
 
@@ -296,7 +310,9 @@ work:
     highlights: []
     position: Web Designer and Developer (Internship)
     startDate: '2009-02-28'
-    summary: Short internship in a supporting role on both design and web development.
+    summary: '
+      Short internship in a supporting role on both design and web development.
+      '
     skills: [Adobe Suite, PHP, HTML, CSS, JavaScript]
     url: ''
 
@@ -466,45 +482,67 @@ references:
 
 projects:
   - name: Workshape.io
-    summary: "The visual job matching platform for developers.
-      As co-founder in charge of product, design and front-end, I've designed every asset from branding to UI to
-      content, implemented the front-end, presented the product at sector conferences and events, but also helped
-      with growth and marketing and built satellite products."
+    summary: "
+      The visual job matching platform for developers.
+      As co-founder in charge of product, design and front-end, I've designed
+      every asset from branding to UI to
+      content, implemented the front-end, presented the product at sector
+      conferences and events, but also helped with growth and marketing and
+      built satellite products."
     url: https://www.workshape.io/
     prettyUrl: workshape.io
 
   - name: Retroospect
-    summary:
-      "A Workshape.io satellite project, Retroospect helps tracking people their happiness at work.
+    summary: "
+      A Workshape.io satellite product, Retroospect helps tracking people their
+      happiness at work.
 
 
-      I've brought Retroospect from idea to a complete implementation (design, full-stack development and marketing)
-      as a fully monetised, low friction SASS product that can be used by organisations to track their teams' motivation, in anonymous or transparent forms."
+      I've brought Retroospect from idea to a complete implementation
+      (design, full-stack development and marketing)
+      as a fully monetised, low friction SASS product that can be used by
+      organisations to track their teams' motivation, in anonymous or
+      transparent forms.
+      "
     url: https://retroospect.com
     prettyUrl: retroospect.com
 
   - name: Job factors infographic
-    summary: An experimental living infographic / survey performed built as Workshape.io side-project.
+    summary: '
+      An experimental living infographic / survey performed built as a
+      Workshape.io satellite product.
+      '
     url: http://jobfactors.workshape.io/
     prettyUrl: jobfactors.workshape.io
 
   - name: Icon font generator
-    summary: 'An open-source command-line tool to build icon fonts programmaticaly.'
+    summary: '
+      An open-source command-line tool to build icon fonts programmaticaly.
+      '
     url: https://github.com/Workshape/icon-font-generator
     prettyUrl: github.com/Workshape/icon-font-generator
 
   - name: Nodeconf London 2016 website
-    summary: 'Branding, design and build of a static website for London Nodeconf 2016. Open-source.'
+    summary: '
+      Branding, design and build of a static website for London Nodeconf 2016.
+      Open-source.
+      '
     url: http://london.nodeconf.com/
     prettyUrl: london.nodeconf.com
 
   - name: Mandi
-    summary: 'An open-source easy to setup Node.js CMS driven uniquely by a JSON schema and configuration.'
+    summary: '
+      An open-source easy to setup Node.js CMS driven uniquely by a JSON schema
+      and configuration.
+      '
     url: https://github.com/Workshape/mandi
     prettyUrl: github.com/Workshape/mandi
 
   - name: DBR website
-    summary: 'Website design, build and process automations for the largest community of inhouse recruiters.'
+    summary: '
+      Website design, build and process automations for the largest community
+      of inhouse recruiters.
+      '
     url: http://www.dbr.community/
     prettyUrl: dbr.community
 
@@ -513,7 +551,10 @@ talks:
     location: Milan
     year: 2016
     topic: The future of work
-    summary: Introductory talk and 'unconference' track moderation on the topic of the future of work.
+    summary: "
+      Introductory talk and 'unconference' track moderation on the topic of the
+      future of work.
+      "
     url: http://www.globalhru.com/event/hrumilan-future-of-work/
     prettyUrl: www.globalhru.com
 
@@ -521,7 +562,10 @@ talks:
     location: Amsterdam
     year: 2015
     topic: Presenting Workshape.io
-    summary: Introduction and live demo of Workshape.io as part of a competition at a large scale HR conference.
+    summary: '
+      Introduction and live demo of Workshape.io as part of a competition at a
+      large scale HR conference.
+      '
     url: http://hrotodayforum.com/
     prettyUrl: hrotodayforum.com/
 
@@ -529,7 +573,10 @@ talks:
     location: Lisbon
     year: 2014
     topic: Learning happens
-    summary: Introduction to Kano, my company at the time, providing kids with tools and games to spark their interest in becoming makers through technology.
+    summary: '
+      Introduction to Kano, my company at the time, providing kids with tools
+      and games to spark their interest in becoming makers through technology.
+      '
     url: http://2014.lxjs.org/
     prettyUrl: 2014.lxjs.org
 
@@ -537,7 +584,10 @@ talks:
     location: Lisbon
     year: 2013
     topic: Developing a mobile-first HTML5 game
-    summary: Walk-though of a hybrid, mobile-first game build using Javascript and HTML5 over Cordova.
+    summary: '
+      Walk-though of a hybrid, mobile-first game build using Javascript
+      and HTML5 over Cordova.
+      '
     url: http://2013.lxjs.org/
     prettyUrl: 2013.lxjs.org
 
@@ -545,6 +595,9 @@ talks:
     location: London
     year: 2012
     topic: HTML5 and web sockets for multi-player gaming
-    summary: Presentation of a real-time multi-player game protoype built with a colleague at the time, using HTML5 and WebSockets.
+    summary: '
+      Presentation of a real-time multi-player game protoype built with a
+      colleague at the time, using HTML5 and WebSockets.
+      '
     url: https://lnug.org/
     prettyUrl: lnug.org
