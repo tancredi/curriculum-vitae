@@ -34,9 +34,20 @@ work:
     position: Front-End Developer
     startDate: '2020-06-30'
     summary: '
-      Front-End Development on the Preview web SPA used by Art
-      collectors and curators as smart cataloguing tool and for virtual art
-      exhibitions.
+      During the lockdown, Preview shifted its attention from its mobile app
+      for art collectors to the the creation of a web platform that would
+      feature the ability of running virtual art galleries and live events.
+
+
+
+      In roughly a month time, we have been able to launch and host our first
+      event with a solution that allowed co-ordinating the dynamics of the live
+      event, displaying the art pieces, streaming live presentations, accepting
+      offers and reservations on artworks and managed to sell most of the art.
+
+
+      The project has then continued to be iterated on and many more events
+      have been and are going to be hosted on the platform.
       '
     skills: [React, Next.js]
     url: https://preview.art/
@@ -64,16 +75,15 @@ work:
     url: https://levelcard.co.uk/
     prettyUrl: www.levelcard.co.uk
 
-  - name: YLD
+  - name: DAZN
     endDate: '2018-07-31'
     highlights: []
-    position: Senior Consultant at DAZN
+    position: Senior Front-End Consultant (via YLD)
     startDate: '2018-02-28'
     summary: '
       While at YLD, I have been mainly working as on-site consultant at
-      DAZN offices, where I transitioned from the
-      YLD team to the inhouse team in order to support during a critical
-      pre-launch phase.
+      DAZN offices, where I transitioned from the YLD team to the inhouse team
+      in order to support during a critical pre-launch phase.
 
 
       It has been exciting to embrace challenges related to an enterprise
@@ -139,9 +149,15 @@ work:
     startDate: '2017-03-31'
     summary: '
       At Instnt, with the support of the inhouse back-end developer and
-      designer, I have fully split out and rebuilt the front-end of a legacy
+      designer, I have split out and rebuilt the front-end of a legacy
       MVP codebase into a redesigned, modern single page application using
       Vue.js.
+
+
+
+      In my time at Instnt we were able to fully re-build, monetise and launch
+      the product, test it on users and customer and iteratively improve its
+      UX and performance.
       '
     skills: [Vue.js, Stylus, Flask]
     url: https://instnt.com/
@@ -152,7 +168,45 @@ work:
     highlights: []
     position: Co-founder & CPO
     startDate: '2014-12-31'
-    summary: Design, Full-stack development, growth hacking.
+    summary: "
+      Started as a side-project, me and my two co-founders ended up building
+      Workshape.io into a fully monetised SASS business, which enabled us to
+      leave our previous positions and dedicate a more than two years to
+      its full-time development.
+
+
+
+      In that time, we've pursued its growth as a fully bootstraped company and
+      wore many hats each, managing to onboard thousands of developers from
+      around the world and a few hundred organisations of different sizes.
+
+
+
+      My roles ranged from design and branding, front-end development,
+      UI and UX, growth hacking, content creation, ideation and building of
+      satellite products, public speaking and networking at a number of
+      international conferences and events, customer support, development of
+      white-label solutions based on our technology for third parties, creation
+      of branding assets and more.
+
+
+
+      Some of our satellite products included Retroospect, DevScanner, and a
+      job matching platform for HackSummit 2017.
+
+
+
+      We've also published open source libraries and tools and helped organising
+      events both in the tech and the HR communities.
+
+
+
+      Workshape.io still operates as a side business, and even though it
+      stopped being my main focus, it offered me some of my biggest challenges,
+      and the two years building and growing the company have been an invaluable
+      experience in many different ways, and gave me the chance of expanding
+      into many different roles and areas of expertise.
+      "
     skills: [Angular, Node.js, Stylus]
     url: https://www.workshape.io/
     prettyUrl: www.workshape.io
@@ -172,8 +226,8 @@ work:
       operating system.
 
 
-      In my time building all the web assets for Kano, the company had closed
-      one of the most successful Kickstarter campaigns in education, won
+      In my time building being the only web developer at Kano, the company had
+      closed one of the most successful Kickstarter campaigns in education, won
       several awards (including two Webby Awards in different years) and secured
       several rounds of funding.
 
@@ -199,7 +253,12 @@ work:
     highlights: []
     position: Front End Developer / UX Designer
     startDate: '2012-09-30'
-    summary: While most of my time at Memrise was spent as a front-end developer, for a period I worked full-time on UX design and user testing.
+    summary: "
+      At Memrise I've been involved in the development of a full re-design
+      of the platform and spent a short period working full-time as a UX
+      designer and on user testing to better support the phase the company was
+      in and expand my skill set futher.
+      "
     skills: [JavaScript, SCSS, Django]
     url: https://www.memrise.com/
     prettyUrl: www.memrise.com
