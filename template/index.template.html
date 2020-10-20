@@ -11,153 +11,109 @@
 
     <link rel="stylesheet" href="styles/index.css" />
   </head>
+  <body>
+    <!-- Basics -->
 
-  <!-- Basics -->
+    <div class="page">
+      {{> header}}
 
-  <div class="page">
-    <section class="ruled section-basics">
-      <div class="left">
-        <h1 class="full-name">{{basics.name}}</h1>
-        <h2 class="full-name">{{basics.label}}</h2>
-      </div>
+      <div class="split-columns">
+        <div class="column-left">
+          <!-- Profile -->
 
-      <div class="right">
-        <ul class="contacts contacts-address">
-          <li>
-            <div>
-              <i class="icon-pin"></i>
-              {{#each basics.location.address}}{{this}}<br />{{/each}}
-              {{basics.location.city}} {{basics.location.postalCode}}<br />
-              {{basics.location.country}}<br />
-            </div>
-          </li>
-        </ul>
+          <section class="section-profile">
+            <h2>Profile</h2>
 
-        <ul class="contacts contacts-links">
-          <li>
-            <a href="mailto:{{basics.email}}" target="_blank">
-              <i class="icon-email"></i>
-              {{basics.email}}
-            </a>
-          </li>
+            {{{markdown basics.summary}}}
+          </section>
 
-          <li>
-            <a href="tel:{{basics.phone}}" target="_blank">
-              <i class="icon-phone"></i>
-              {{basics.prettyPhone}}
-            </a>
-          </li>
+          <!-- Work -->
 
-          {{#each basics.profiles}}
-          <li>
-            <a href="{{url}}" target="_blank">
-              <i class="icon-{{lower network}}"></i>
-              {{network}}
-            </a>
-          </li>
-          {{/each}}
-        </ul>
-      </div>
-    </section>
-
-    <!-- Layout -->
-    <div class="main-columns">
-      <div class="column-left">
-        <!-- Profile -->
-        <section class="section-profile">
-          <h2>Profile</h2>
-
-          {{{markdown basics.summary}}}
-        </section>
-
-        <!-- Work -->
-
-        <section class="section-work">
-          {{#> items-list title='Work'}}
-          <!--  -->
-          {{#each work}}
-          <!--  -->
-          {{> list-item iconsDir='companies' subtitle=position}}
-          <!--  -->
-          {{/each}}
-          <!--  -->
-          {{/items-list}}
-        </section>
-      </div>
-
-      <div class="column-right">
-        <!-- Projects -->
-        <section class="section-projects">
-          {{#> items-list title='Projects'}}
-          <!--  -->
-          {{#each projects}}
-          <!--  -->
-          {{> list-item iconsDir='projects'}}
-          <!--  -->
-          {{/each}}
-          <!--  -->
-          {{/items-list}}
-        </section>
-
-        <!-- Skills -->
-        <section class="section-skills">
-          <h2>Skills</h2>
-
-          <div class="skills-list">
-            {{#each skills}}
-            <div class="skill">
-              <div class="skill-tag">
-                <i class="icon-{{slug name}}"></i> {{name}}
-              </div>
-
-              {{#eachRange 5}}
-              <div class="dot">
-                {{#lt this ../level}}
-                <div class="fill"></div>
-                {{/lt}}
-              </div>
-              {{/eachRange}}
-            </div>
+          <section class="section-work">
+            {{#> items-list title='Work'}}
+            <!--  -->
+            {{#each work}}
+            <!--  -->
+            {{> list-item iconsDir='companies' subtitle=position}}
+            <!--  -->
             {{/each}}
-          </div>
-        </section>
+            <!--  -->
+            {{/items-list}}
+          </section>
+        </div>
 
-        <!-- Talks -->
-        <section class="section-talks">
-          {{#> items-list title='Public speaking'}}
-          <!--  -->
-          {{#each talks}}
-          <!--  -->
-          {{> list-item iconsDir='talks' subtitle=topic}}
-          <!--  -->
-          {{/each}}
-          <!--  -->
-          {{/items-list}}
-        </section>
+        <div class="column-right">
+          <!-- Skills -->
+          <section class="section-skills">
+            <h2>Skills</h2>
 
-        <!-- Education -->
-        <section class="section-education">
-          <h2>Education</h2>
+            <div class="skills-list">
+              {{#each skills}}
+              <div class="skill">
+                <div class="skill-tag">
+                  <i class="icon-{{slug name}}"></i> {{name}}
+                </div>
 
-          <div class="education-list">
-            {{#each education}}
-            <div class="education-entry">
-              <h3>{{institution}}</h3>
-
-              <p class="degree">{{studyType}}</p>
-
-              <p class="text-meta">
-                {{date startDate 'MMM YYYY'}}
-                <span>-</span>
-                {{date endDate 'MMM YYYY''Present'}}
-              </p>
+                {{#eachRange 5}}
+                <div class="dot">
+                  {{#lt this ../level}}
+                  <div class="fill"></div>
+                  {{/lt}}
+                </div>
+                {{/eachRange}}
+              </div>
+              {{/each}}
             </div>
+          </section>
+
+          <!-- Projects -->
+          <section class="section-projects">
+            {{#> items-list title='Projects'}}
+            <!--  -->
+            {{#each projects}}
+            <!--  -->
+            {{> list-item iconsDir='projects'}}
+            <!--  -->
             {{/each}}
-          </div>
-        </section>
+            <!--  -->
+            {{/items-list}}
+          </section>
+
+          <!-- Talks -->
+          <section class="section-talks">
+            {{#> items-list title='Public speaking'}}
+            <!--  -->
+            {{#each talks}}
+            <!--  -->
+            {{> list-item iconsDir='talks' subtitle=topic}}
+            <!--  -->
+            {{/each}}
+            <!--  -->
+            {{/items-list}}
+          </section>
+
+          <!-- Education -->
+          <!-- <section class="section-education">
+            <h2>Education</h2>
+
+            <div class="education-list">
+              {{#each education}}
+              <div class="education-entry">
+                <h3>{{institution}}</h3>
+
+                <p class="degree">{{studyType}}</p>
+
+                <p class="text-meta">
+                  {{date startDate 'MMM YYYY'}}
+                  <span>-</span>
+                  {{date endDate 'MMM YYYY''Present'}}
+                </p>
+              </div>
+              {{/each}}
+            </div>
+          </section> -->
+        </div>
       </div>
     </div>
-  </div>
-
-  <body></body>
+  </body>
 </html>

@@ -38,17 +38,21 @@ section h2 {
   margin-bottom: 30px;
 }
 
-.main-columns {
+.single-column {
+  padding: 0 30px;
+}
+
+.split-columns {
   display: flex;
   flex-direction: row;
   padding: 20px 30px 0;
 }
 
-.main-columns .column-left {
+.split-columns .column-left {
   width: 55%;
 }
 
-.main-columns .column-right {
+.split-columns .column-right {
   flex: 1;
   margin-left: 20px;
 }
