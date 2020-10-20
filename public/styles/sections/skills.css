@@ -45,3 +45,7 @@
   background: var(--color-brand);
   border-radius: 100%;
 }
+
+section.section-skills {
+  page-break-before: always;
+}
