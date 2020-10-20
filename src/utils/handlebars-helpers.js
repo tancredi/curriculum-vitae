@@ -33,6 +33,12 @@ helpers.lte = (a, b, options) => (a <= b ? options.fn() : null);
 
 helpers.lt = (a, b, options) => (a < b ? options.fn() : null);
 
+helpers.eachSlice = (values, start, end, options) =>
+  values
+    .slice(start, end || undefined)
+    .map(options.fn)
+    .join('');
+
 helpers.eachColumn = (values, columnsCount, options) => {
   const columns = [];
   const rowsCount = Math.round(values.length / columnsCount);
@@ -45,7 +51,7 @@ helpers.eachColumn = (values, columnsCount, options) => {
       values[i] && rows.push(values[i]);
     }
 
-    columns.push(rows);
+    columns.push({ rows, index: c });
   }
 
   return columns.map(options.fn).join('');
@@ -70,7 +76,7 @@ helpers.listDiffRender = (list, entry, dir, options) => {
   return null;
 };
 
-helpers.slug = (str) => slug(str);
+helpers.slug = (str = '') => slug(str);
 
 exports.register = () =>
   Object.keys(helpers).forEach((key) =>

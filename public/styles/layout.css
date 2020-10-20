@@ -7,10 +7,25 @@ body {
 }
 
 .page {
-  max-width: 1000px;
+  max-width: 935px;
   margin: 20px auto;
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.07) 0 2px 5px;
+  page-break-before: always;
+  position: relative;
+  overflow: hidden;
+}
+
+.page:after {
+  position: absolute;
+  width: 100%;
+  padding-bottom: calc(100% * 297 / 210);
+  left: 0;
+  top: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  content: '';
+  z-index: 1;
 }
 
 @page {
@@ -19,10 +34,20 @@ body {
 }
 
 @media print {
+  body {
+    background: var(--color-white);
+  }
+
   .page {
+    background: transparent;
     margin: 0;
     max-width: auto;
     box-shadow: none;
+    box-shadow: none;
+  }
+
+  .page:after {
+    display: none;
   }
 }
 
@@ -43,7 +68,26 @@ section h2,
 .split-columns {
   display: flex;
   flex-direction: row;
-  padding: 20px 30px 0;
+  padding: 0 30px;
+  flex-wrap: wrap;
+}
+
+.split-columns .column {
+  width: 50%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.split-columns .column:first-child {
+  padding-left: 0;
+}
+
+.split-columns .column:last-child {
+  padding-right: 0;
+}
+
+.columns-heading {
+  padding: 0 30px;
 }
 
 .split-columns .column-left {
@@ -55,6 +99,10 @@ section h2,
   margin-left: 20px;
 }
 
-.section-talks {
-  page-break-before: always;
+.single-column {
+  padding: 0 30px;
+}
+
+.section-work {
+  margin-top: -30px;
 }

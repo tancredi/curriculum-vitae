@@ -1,7 +1,11 @@
 <table class="items-list">
   <thead>
     <tr>
-      <th><h2>{{title}}</h2></th>
+      <th>
+        {{#if title}}
+        <h2>{{title}}&nbsp;</h2>
+        {{/if}}
+      </th>
     </tr>
   </thead>
 

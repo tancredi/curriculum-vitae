@@ -6,11 +6,10 @@ basics:
   prettyPhone: '075 9306 7780'
   url: ''
   summary: |-
-    Product obsessed front-end developer doubling as designer, I love to work
-    around the stack and undertake big challenges trying, when I can, to be
-    fully involved and have end-to-end impact on companies I work with.
+    Product oriented front-end developer doubling as designer, I love to work
+    around the stack and undertake big challenges end-to-end.
 
-    I seek environments in which testing and code quality are valued, where
+    I seek environments where testing and quality are valued, where
     engineers do not shy away from finding creative and innovative solutions
     and aim at improving their workflow and automations as well as their
     product, where business requirements and elegance in execution matter
@@ -64,7 +63,7 @@ work:
       defensive automations.
 
 
-      Development and on the main Lendable web platform.
+      Continued development on the main Lendable platform.
 
     skills: [React Native, TypeScript, Jest, Detox, Next.js]
     url: https://levelcard.co.uk/
@@ -76,13 +75,12 @@ work:
     position: Senior Front-End Consultant (via YLD)
     startDate: '2018-02-28'
     summary: |-
-      Development on different parts of the core product, partly within the YLD
-      team and partly in the in-house team in order to support during a critical
-      pre-launch phase.
+      Development on the core product, partly within the YLD team and partly
+      in the in-house team to support during a critical pre-launch phase.
 
 
       Responsibilities included the estabilishment of development
-      practices, build of performance benhmarking tools, presentations to other
+      practices, build of performance benchmarking tools, presentations to other
       teams and stakeholders.
 
     skills: [React, MobX, Jest, Micro front-ends]
@@ -98,7 +96,7 @@ work:
       Full redesign / rebrand of the loans platform.
 
 
-      Full rebuild of the legacy MVP application as an isomorphic single page
+      Rebuild of the legacy MVP application as an isomorphic single page
       application.
 
 
@@ -119,8 +117,7 @@ work:
     position: Front-End Developer
     startDate: '2017-03-31'
     summary: |-
-      Full rebuild of the legacy MVP codebase as a modern single page
-      application and implementation of a new design.
+      Build of the redesigned product as a single page application.
 
     skills: [Vue.js, Stylus, Flask]
     url: https://instnt.com/
@@ -139,8 +136,8 @@ work:
 
 
 
-      Some of our satellite products included Retroospect, DevScanner, and a
-      job matching platform for HackSummit 2017.
+      Satellite products included Retroospect, DevScanner, and whitelabel for
+      third parties such as HackSummit 2017.
 
     skills: [Angular, Node.js, Stylus]
     url: https://www.workshape.io/
@@ -152,18 +149,14 @@ work:
     position: Lead Web Developer
     startDate: '2013-09-30'
     summary: |-
-      5th employee at Kano, responsible for building all web properties, the
-      social platform, main website, API used by both the web and Kano devices,
-      and the development of several apps and educational games on the OS.
+      5th employee at Kano, build of all web properties, social platform, main
+      website, API used by both the web and Kano devices, development of several
+      apps and educational games on the OS.
 
 
       After the the initial Kickstarter campaign and funding round, part of my
       responsibilities went towards hiring and training of staff for the web
       team.
-
-
-      I've left the company after a 10x growth from its initial size to dedicate
-      myself full-time to Workshape.io.
 
     skills: [Node.js, Vue.js, Stylus, Mocha]
     url: https://kano.me/
@@ -175,7 +168,7 @@ work:
     position: Front End Developer / UX Designer
     startDate: '2012-09-30'
     summary: |-
-      Work in the front-end team during the re-design of the platform with short
+      Work in the front-end team during a product re-design with short
       periods of full time focus on UX design and user testing.
 
     skills: [JavaScript, SCSS, Django]
@@ -188,7 +181,7 @@ work:
     position: Junior Front-End Developer & UX Designer
     startDate: '2012-01-31'
     summary: |-
-      Work as a junior in the front-end team as well as in the design team.
+      Work across the front-end team and design teams.
 
     skills: [JavaScript, LESS, HTML5, PHP]
     url: ''
@@ -199,8 +192,7 @@ work:
     position: Junior Interactive Designer
     startDate: '2011-02-28'
     summary: |-
-      Delivery of fully integrated digital marketing campaigns, mostly for
-      leading B2B brands.
+      Fully integrated digital marketing campaigns for B2B brands.
 
     skills: [Javascript, HTML5, CSS, PHP, Flash, ActionScript]
     url: https://thecroc.com/
@@ -224,8 +216,7 @@ work:
     position: Web Designer and Developer (Internship)
     startDate: '2009-02-28'
     summary: |-
-      Short internship in a supporting role on both design for print and web and
-      web development.
+      Internship in print / digital design and web development.
 
     skills: [Adobe Suite, PHP, HTML, CSS, JavaScript]
     url: ''
@@ -412,8 +403,7 @@ projects:
 
   - name: Job factors infographic
     summary: |-
-      An experimental living infographic / survey performed built as a
-      Workshape.io satellite product.
+      An experimental living infographic / survey on what developers care about in a job.
 
     url: http://jobfactors.workshape.io/
     prettyUrl: jobfactors.workshape.io
@@ -442,6 +432,7 @@ projects:
     prettyUrl: github.com/Workshape/mandi
 
   - name: DBR website
+    hide: true
     summary: |-
       Website design, build and process automations for the largest community
       of in-house recruiters.
