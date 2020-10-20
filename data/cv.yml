@@ -103,10 +103,6 @@ work:
       Development of a CI pipeline and end-to-end testing of all business
       requirement.
 
-
-      Documentation and workshops to ensure the back-end team could continue
-      maintainance and development of the platform in autonomy.
-
     skills: [React, Node.js, Redux, Jest, Cucumber, Selenium]
     url: https://www.lendable.co.uk/
     prettyUrl: www.lendable.co.uk
@@ -131,7 +127,7 @@ work:
     summary: |-
       Co-founding Workshape.io meant wearing many hats. Responsibilities ranged
       from design and branding, front-end development, UI / UX, growth hacking,
-      content creation, building of satellite products, to public speaking and
+      content creation, building of satellite products to public speaking and
       many more.
 
 
