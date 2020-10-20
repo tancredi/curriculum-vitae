@@ -23,7 +23,9 @@
         <!--  -->
 
         {{#if year}}
-        <p class="meta text-meta">{{year}} - {{location}}</p>
+        <p class="meta text-meta">
+          {{year}}{{#if location}} - {{location}}{{/if}}
+        </p>
         {{/if}}
       </div>
 

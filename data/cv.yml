@@ -132,32 +132,15 @@ work:
     position: Co-founder & CPO
     startDate: '2014-12-31'
     summary: |-
-      After designing and developing the product as a side-project alongside two
-      co-founders, we've monetised Workshape.io and it became our full-time
-      occupation for the following two years, fully bootstraped and
-      self-sustaining as a SASS platform.
-
-
-
-      We've grown the company enough to have onboarded thousands of developers
-      around the world and a few hundred organisations of different sizes.
-
-
-
-      Responsibilities went from design and branding, front-end development,
-      UI / UX, growth hacking, content creation, ideation and building of
-      satellite products, public speaking, creation of branding assets and more.
+      Co-founding Workshape.io meant wearing many hats. Responsibilities went
+      from design and branding, front-end development, UI / UX, growth hacking,
+      content creation, building of satellite products, public speaking and many
+      more.
 
 
 
       Some of our satellite products included Retroospect, DevScanner, and a
       job matching platform for HackSummit 2017.
-
-
-
-      Smaller accomplishments have been the publishing of a number of open
-      source libraries and tools and organisation of events both in the tech
-      and HR communities.
 
     skills: [Angular, Node.js, Stylus]
     url: https://www.workshape.io/
@@ -174,9 +157,9 @@ work:
       and the development of several apps and educational games on the OS.
 
 
-      After the company closed the initial Kickstarter campaign and secured a
-      funding round, part of my responsibilities shifted towards hiring and
-      training of staff for the web team.
+      After the the initial Kickstarter campaign and funding round, part of my
+      responsibilities went towards hiring and training of staff for the web
+      team.
 
 
       I've left the company after a 10x growth from its initial size to dedicate
@@ -228,6 +211,7 @@ work:
     highlights: []
     position: Web Designer and Developer
     startDate: '2010-01-31'
+    hide: true
     summary: |-
       Design and delivery of websites and merchandise for clients, Adobe Suite.
 
@@ -273,8 +257,8 @@ education:
     gpa: ''
     courses: []
 
-awards: []
 publications: []
+
 skills:
   - name: JavaScript
     level: 5
@@ -520,3 +504,14 @@ talks:
 
     url: https://lnug.org/
     prettyUrl: lnug.org
+
+awards:
+  - name: NORA
+    year: 2015
+    award: Worshape.io
+    category: Best Newcomer award
+
+  - name: Webby Awards
+    year: 2014
+    award: Kano Computing
+    category: Webby Winner - Apps, Mobile and Voice Connected Products & Wearables

@@ -10,10 +10,6 @@
   padding-top: 50px;
 }
 
-.items-list thead h2 {
-  margin-bottom: 30px;
-}
-
 .items-list .item {
   display: flex;
   box-sizing: border-box;
@@ -118,7 +114,7 @@
 
 .items-list p {
   font-weight: normal;
-  font-size: 13px;
+  font-size: 12px;
   margin-bottom: 0;
 }
 
