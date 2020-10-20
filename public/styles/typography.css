@@ -65,6 +65,7 @@ i {
 
 a.resource-link {
   white-space: nowrap;
+  font-size: 13px;
 }
 
 a.resource-link i {

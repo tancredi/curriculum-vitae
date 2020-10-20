@@ -44,8 +44,13 @@ work:
     position: Lead Front-End Developer
     startDate: '2018-09-30'
     summary:
-      Design and app / web Development for the credit card product, hiring and
-      training of a front-end team.
+      "In my second contract at Lendable I focused on designing and developing the Level credit card mobile app, brand and website.
+
+
+      Meanwhile, I've supported hiring and training of a front-end team to continue the work inhouse.
+
+
+      Aside from Level Card, I have continued feature development and maintenance on the main Lendable web platform."
     skills: [React Native, TypeScript, Jest, Detox, Next.js]
     url: https://levelcard.co.uk/
     prettyUrl: www.levelcard.co.uk
@@ -53,9 +58,21 @@ work:
   - name: YLD
     endDate: '2018-07-31'
     highlights: []
-    position: Front-End Developer at DAZN
+    position: Senior Consultant at DAZN
     startDate: '2018-02-28'
-    summary: Front-End developer consultant.
+    summary:
+      'While at YLD, I have been mainly working as on-site consultant at DAZN offices, where I transitioned from the
+      YLD team to the inhouse team in order to support during a critical pre-launch phase.
+
+
+      It has been exciting to embrace challenges related to an enterprise environment while involved with a large build
+      and mission critical launch.
+
+
+      At DAZN I have contributed estabilishing practices, built tooling to improve the development workflow and
+      benchmark performance of the new build, held presentations to other teams and stakeholders and of course
+      developed the core product, having the chance to deal with many moving parts of the organisation, from the
+      inhouse teams and outsourcing teams to architects, business analysts and others.'
     skills: [React, MobX, Jest, Micro front-ends]
     url: https://www.yld.io/
     prettyUrl: www.yld.io
@@ -65,7 +82,21 @@ work:
     highlights: []
     position: Front-End Developer
     startDate: '2017-09-30'
-    summary: Design of the main web platform and Isomorphic development.
+    summary: "
+      In my first contract at Lendable I had to fully redesign / rebrand the platform and re-develop the front-end in separation from a new API, as the build at the time was a legacy MVP codebase.
+
+
+      The rebuild had to cover all of the pre-existing functionality and introduce testing at both unit and end to end level, and assure a smooth, progressive launch that could have been A/B tested for performance against its predecessor other than for any potential production issues.
+
+
+      Dealing with sensitive financial data and on a fairly large scale, this has been one of my biggest challenges, and it's been extremely rewarding to see tha platform not only launch with no major issues, but also to see it perform far better on its metrics than it previously did.
+
+
+      Also, the platform is a fully isomorphic implementation built with a custom architecture, as at the time this project had started readily available frameworks such as Next.js were not mature enough to support its requirements.
+
+
+      Having left enough documentation and held small workshops before the end of the contract, after I was gone the inhouse back-end team (mainly focused on PHP & Symphony) was able to maintain the front-end and build new features in indipendence.
+      "
     skills: [React, Node.js, Redux, Jest, Cucumber, Selenium]
     url: https://www.lendable.co.uk/
     prettyUrl: www.lendable.co.uk
@@ -313,12 +344,20 @@ references:
 
 projects:
   - name: Workshape.io
-    summary: 'The visual job matching platform for developers. The product I’ve co-founded, designed and built brand and the front-end for.'
+    summary: "The visual job matching platform for developers.
+      As co-founder in charge of product, design and front-end, I've designed every asset from branding to UI to
+      content, implemented the front-end, presented the product at sector conferences and events, but also helped
+      with growth and marketing and built satellite products."
     url: https://www.workshape.io/
     prettyUrl: workshape.io
 
   - name: Retroospect
-    summary: 'Ideation, design and end-to end build as a Workshape.io side-project. A platform that helps people tracking their happiness at work.'
+    summary:
+      "A Workshape.io satellite project, Retroospect helps tracking people their happiness at work.
+
+
+      I've brought Retroospect from idea to a complete implementation (design, full-stack development and marketing)
+      as a fully monetised, low friction SASS product that can be used by organisations to track their teams' motivation, in anonymous or transparent forms."
     url: https://retroospect.com
     prettyUrl: retroospect.com
 
@@ -348,6 +387,22 @@ projects:
     prettyUrl: dbr.community
 
 talks:
+  - name: '#HRU Milan'
+    location: Milan
+    year: 2016
+    topic: The future of work
+    summary: Introductory talk and 'unconference' track moderation on the topic of the future of work.
+    url: http://www.globalhru.com/event/hrumilan-future-of-work/
+    prettyUrl: www.globalhru.com
+
+  - name: HRO Today Forum
+    location: Amsterdam
+    year: 2015
+    topic: Presenting Workshape.io
+    summary: Introduction and live demo of Workshape.io as part of a competition at a large scale HR conference.
+    url: http://hrotodayforum.com/
+    prettyUrl: hrotodayforum.com/
+
   - name: LXJS 2014
     location: Lisbon
     year: 2014
