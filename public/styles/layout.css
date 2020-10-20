@@ -35,7 +35,7 @@ section {
 }
 
 section h2,
-thead h2 {
+.items-list thead h2 {
   margin-bottom: 20px;
 }
 
