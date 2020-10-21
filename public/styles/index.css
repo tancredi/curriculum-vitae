@@ -5,8 +5,8 @@
 @import './variables.css';
 @import './fonts.css';
 @import './layout.css';
+@import './header.css';
 @import './typography.css';
 @import './items-list.css';
-@import './sections/basics.css';
 @import './sections/skills.css';
 @import './sections/education.css';
