@@ -1,0 +1,32 @@
+<section class="section-endorsements">
+  {{#> items-list title='Endorsements'}}
+  <!--  -->
+  {{#each references}}
+  <!--  -->
+  {{#unless hide}}
+  <!--  -->
+  <tr>
+    <td class="item talk">
+      <img class="logo" src="/assets/{{photo}}" alt="{{name}}" />
+
+      <div class="content">
+        <div class="heading">
+          <h3>{{name}}</h3>
+          <p class="meta text-meta">{{role}} at {{company}}</p>
+        </div>
+
+        <div class="detail">
+          <h4>From working at {{togetherAt}}</h4>
+        </div>
+
+        <div class="summary">{{{markdown reference}}}</div>
+      </div>
+    </td>
+  </tr>
+  <!--  -->
+  {{/unless}}
+  <!--  -->
+  {{/each}}
+  <!--  -->
+  {{/items-list}}
+</section>

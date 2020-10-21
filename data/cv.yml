@@ -293,6 +293,11 @@ languages:
 interests: []
 references:
   - name: Mike Borozdin
+    role: Head of Front-End
+    company: Lendable
+    togetherAt: Lendable
+    photo: 'references/mike-borozdin.jpeg'
+    linkedinHandle: mikeborozdin
     reference:
       "Tanc is a unique blend of a talented designer and an incredibly proficient
       software engineer. When I joined Lendable I was really impressed with the projects
@@ -303,6 +308,12 @@ references:
       about the user and the product? Well, now you know! "
 
   - name: Livia van Strydonck
+    role: Head of product
+    company: Lendable
+    togetherAt: Lendable, Kano Computing
+    photo: 'references/livia-van-strydonck.jpeg'
+    linkedinHandle: livia-van-strydonck-7b9a2957
+    hide: true
     reference:
       I've had the pleasure of working with Tanc at Lendable and at Kano across
       various different projects. He is a fantastic designer and a brilliant software
@@ -310,6 +321,11 @@ references:
       lot of humour.
 
   - name: Riccardo Cocetta
+    role: Director of Engineering
+    company: Auth0
+    togetherAt: YLD, Kano Computing
+    photo: 'references/riccardo-cocetta.jpeg'
+    linkedinHandle: riccardococetta
     reference:
       "I worked with Tanc at Kano and YLD, and knowing him made me realise
       of the existence of a new breed of Front-End developers: he can think of amazing
@@ -320,11 +336,22 @@ references:
       me at any company ... but he doesn't always want to join. "
 
   - name: Yonatan Raz-Fridman
+    role: CEO
+    company: Supersocial
+    photo: 'references/yonatan-raz-fridman.jpeg'
+    linkedinHandle: yonatanrf
+    togetherAt: Kano
     reference:
       'Tank is a talented creator, thrives on solving problems in creative
       ways through design and code. '
 
   - name: Tommy Säl
+    role: Freelance Designer
+    company: Tommys.al
+    togetherAt: Kano
+    photo: 'references/tommy-sal.jpeg'
+    linkedinHandle: tommysal
+    hide: true
     reference:
       "Tancredi is a highly skilled, well spoken, easy to work with developer
       with a lot of hidden talents. At first glance you'd think that he spent years
@@ -334,6 +361,12 @@ references:
       a lot of passion."
 
   - name: Mathew Keegan
+    role: Support Lead
+    company: Automata
+    togetherAt: Kano Computing
+    photo: 'references/mathew-keegan.jpeg'
+    linkedinHandle: mathewkeegan
+    hide: true
     reference:
       Tanc is without a doubt one of the most talented and creative people
       I've ever met. He can work in any part of the stack, and single handedly created
@@ -341,12 +374,22 @@ references:
       drawing app that is loved by thousands.
 
   - name: Edward Cooke
+    role: Co-founder & CEO
+    company: Memrise
+    togetherAt: Memrise
+    photo: 'references/edward-cooke.jpeg'
+    linkedinHandle: edwardcooke1
     reference:
       "Tanc's an extremely gifted designer/developer, with a flair for producing
       beautiful things at speed. His skill and experience go far beyond his age. He's
       passionate, insightful and iconoclastic. All in all: a very talented young entrepreneur. "
 
   - name: Alex Klein
+    photo: 'references/alex-klein.jpeg'
+    role: CEO & Co-founder
+    company: Kano Computing
+    togetherAt: Kano Computing
+    linkedinHandle: alex-klein-300298b
     reference:
       Tancredi Trugenberger is a one-off – a uniquely talented, thoughtful,
       and energetic technologist – by quality and sheer irrepressibility, he is in a
@@ -358,18 +401,59 @@ references:
       endorse any of his outside ventures as well.
 
   - name: Adam Johnson
+    role: Consultant
+    company: Self-employed
+    togetherAt: Memrise
+    photo: 'references/adam-johnson.jpeg'
+    linkedinHandle: adamchainz
+    hide: true
     reference:
       Tanc is a perfectionist and works tirelessly to ensure every pixel and
       interaction is in place. He often adds special flair to projects beyond the call
       of duty.
 
   - name: Kevin Rooney
+    role: Senior Designer
+    company: Kano
+    photo: 'references/kevin-rooney.jpeg'
+    linkedinHandle: kevin-roonio-rooney-97004772
+    togetherAt: Memrise, Kano Computing
+    hide: true
     reference:
       "Tanc has an amazing skill set. Its rare to find someone with such a
       great ability and appreciation for Design but who can also make that design work
       with the coding side of things. \r\n\r\nTanc brings an amazing enthusiasm to projects,
       this just made me want to work harder and come up with more interesting things
       for him to build. I would work with Tanc again in a heart beat."
+
+  - name: Sanford Dickert
+    role: Founder
+    company: OWLR
+    togetherAt: BraveNewTalent
+    photo: 'references/sanford-dickert.jpeg'
+    linkedinHandle: sanford
+    reference:
+      Describing Tanc is like describing bottled lightning - a person who comes
+      with an idea out of the sky and, in an instant, is able to create a
+      solution that we can see, touch, react with and simply benefit from.
+      He is a triple threat - with a fussion-powered engine behind him.
+      Worth a gander.
+
+  - name: Aaron Kato
+    role: Lead Product Designer
+    company: BRYTER
+    togetherAt: BraveNewTalent
+    hide: true
+    photo: 'references/aaron-kato.jpeg'
+    linkedinHandle: aaronkato
+    reference:
+      Tank IS bright. You would not believe how sharp his mind is until you see
+      him activating both his logical and creative side and rocking on the top
+      of his workload. He also has a very strict "let's go and do it" attitude,
+      honesty and a great sense of humor that turns out as an outstanding
+      combination whenever things has to get done. He is doubtlessly one of the
+      best assets of any endeavour that shoots for the greatest creative
+      developers. I truly hope our career paths will cross again in the future.
 
 projects:
   - name: Workshape.io

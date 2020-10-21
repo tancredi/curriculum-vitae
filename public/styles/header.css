@@ -87,3 +87,7 @@ header.header-secondary h1 {
   margin: 0;
   font-size: 20px;
 }
+
+header.header-secondary h2 {
+  font-size: 20px;
+}

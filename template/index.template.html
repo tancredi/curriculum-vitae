@@ -33,13 +33,18 @@
     <div class="page">
       <header class="header-secondary">
         <h1>{{basics.name}}</h1>
+        <h2>Miscellaneous</h2>
       </header>
 
       <div class="page-break"></div>
 
       <div class="split-columns">
-        <div class="column">{{> section-awards}}</div>
-        <div class="column">{{> section-talks}}</div>
+        <div class="column">{{>section-endorsements}}</div>
+        <div class="column">
+          {{> section-talks}}
+          <!--  -->
+          {{> section-awards}}
+        </div>
       </div>
     </div>
   </body>
