@@ -1,0 +1,19 @@
+<section class="section-skills">
+  <h2>Skills</h2>
+
+  <div class="skills-list">
+    {{#each skills}}
+    <div class="skill">
+      <div class="skill-tag"><i class="icon-{{slug name}}"></i> {{name}}</div>
+
+      {{#eachRange 5}}
+      <div class="dot">
+        {{#lt this ../level}}
+        <div class="fill"></div>
+        {{/lt}}
+      </div>
+      {{/eachRange}}
+    </div>
+    {{/each}}
+  </div>
+</section>

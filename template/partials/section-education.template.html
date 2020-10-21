@@ -1,0 +1,21 @@
+<section class="section-education">
+  <h2>Education</h2>
+
+  <div class="education-list">
+    {{#each education}}
+
+    <div class="education-entry">
+      <h3>{{institution}}</h3>
+
+      <p class="degree">{{studyType}}</p>
+
+      <p class="text-meta">
+        {{date startDate 'MMM YYYY'}}
+        <span>-</span>
+        {{date endDate 'MMM YYYY''Present'}}
+      </p>
+    </div>
+
+    {{/each}}
+  </div>
+</section>

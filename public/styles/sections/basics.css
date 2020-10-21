@@ -3,12 +3,12 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 25px 30px 55px;
+  padding: 35px 30px 65px;
   background-image: url(/assets/layout/header-abstracts.svg);
   background-position: center bottom;
   background-size: 100% auto;
   position: relative;
-  margin-bottom: -5px;
+  margin-bottom: 0;
 }
 
 /* .section-basics:after {
@@ -24,15 +24,15 @@
 } */
 
 .section-basics h1 {
-  font-size: 25px;
+  font-size: 28px;
   text-transform: uppercase;
-  margin: 5px 0 5px;
+  margin: 5px 0 10px;
   font-weight: normal;
   color: var(--color-white);
 }
 
 .section-basics h2 {
-  font-size: 20px;
+  font-size: 23.5px;
   color: var(--color-white);
   font-weight: 300;
 }

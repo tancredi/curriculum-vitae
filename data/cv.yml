@@ -9,11 +9,10 @@ basics:
     Product oriented front-end developer doubling as designer, I love to work
     around the stack and undertake big challenges end-to-end.
 
-    I seek environments where testing and quality are valued, where
-    engineers do not shy away from finding creative and innovative solutions
-    and aim at improving their workflow and automations as well as their
-    product, where business requirements and elegance in execution matter
-    equally.
+    I seek environments where testing and quality are valued, engineers do not
+    shy away from finding creative and innovative solutions and aim at improving
+    their workflow and automations as well as their product, where business
+    requirements and elegance in execution matter equally.
 
   location:
     address: ['Flat 6 Reflection House', '112A Cheshire st']
@@ -51,19 +50,20 @@ work:
     position: Lead Front-End Developer
     startDate: '2018-09-30'
     summary: |-
-      Design, development, testing and release automations for the Level credit
-      card mobile app, brand and website.
+      Full design for the Level credit card mobile app and web properties.
 
 
-      Support hiring and training of a front-end team to continue the work
-      inhouse.
+      App and web development.
 
 
-      Implementation of tooling to enable a parallel workflow between teams and
-      defensive automations.
+      Build a CI pipeline for full mobile end to end testing and automation of
+      the release cycle for both Android and iOS.
 
 
-      Continued development on the main Lendable platform.
+      Hiring and training of the front-end team.
+
+
+      Development on the main Lendable platform.
 
     skills: [React Native, TypeScript, Jest, Detox, Next.js]
     url: https://levelcard.co.uk/
@@ -75,13 +75,10 @@ work:
     position: Senior Front-End Consultant (via YLD)
     startDate: '2018-02-28'
     summary: |-
-      Development on the core product, partly within the YLD team and partly
-      in the in-house team to support during a critical pre-launch.
+      Work both within the YLD team and the in-house team.
 
 
-      Responsibilities included the estabilishment of development
-      practices, build of performance benchmarking tools, presentations to other
-      teams and stakeholders.
+      Estabilishment of practices, build of development tooling.
 
     skills: [React, MobX, Jest, Micro front-ends]
     url: https://www.yld.io/
@@ -96,12 +93,10 @@ work:
       Full redesign / rebrand of the loans platform.
 
 
-      Rebuild of the legacy MVP application as an isomorphic single page
-      application.
+      Rebuild of the legacy MVP application as an isomorphic SPA.
 
 
-      Development of a CI pipeline and end-to-end testing of all business
-      requirement.
+      Build of a CI / end-to-end testing pipeline.
 
     skills: [React, Node.js, Redux, Jest, Cucumber, Selenium]
     url: https://www.lendable.co.uk/
@@ -113,7 +108,7 @@ work:
     position: Front-End Developer
     startDate: '2017-03-31'
     summary: |-
-      Build of the redesigned product as a single page application.
+      Build of the redesigned product as a SPA.
 
     skills: [Vue.js, Stylus, Flask]
     url: https://instnt.com/
@@ -125,15 +120,13 @@ work:
     position: Co-founder & CPO
     startDate: '2014-12-31'
     summary: |-
-      Co-founding Workshape.io meant wearing many hats. Responsibilities ranged
-      from design and branding, front-end development, UI / UX, growth hacking,
-      content creation, building of satellite productsf to public speaking and
-      many more.
+      Co-founded, wearing many hats - design and branding, front-end
+      development, UI / UX, growth hacking, content creation, public speaking,
+      delivery of white-labels and more.
 
 
-
-      Satellite products included Retroospect, DevScanner, and whitelabel for
-      third parties such as HackSummit 2017.
+      Build of satellite products such as
+      [Retroospect](https://retroospect.com/) and others.
 
     skills: [Angular, Node.js, Stylus]
     url: https://www.workshape.io/
@@ -147,12 +140,10 @@ work:
     summary: |-
       5th employee at Kano, build of all web properties, social platform, main
       website, API used by both the web and Kano devices, development of several
-      apps and educational games on the OS.
+      apps and games on the OS.
 
 
-      After the the initial Kickstarter campaign and funding round, part of my
-      responsibilities went towards hiring and training of staff for the web
-      team.
+      Hiring and training of staff for the web team.
 
     skills: [Node.js, Vue.js, Stylus, Mocha]
     url: https://kano.me/
@@ -164,8 +155,7 @@ work:
     position: Front End Developer / UX Designer
     startDate: '2012-09-30'
     summary: |-
-      Work in the front-end team during a product re-design with short
-      periods of full time focus on UX design and user testing.
+      Work alternating as front-end developer and UX designer.
 
     skills: [JavaScript, SCSS, Django]
     url: https://www.memrise.com/
@@ -177,7 +167,7 @@ work:
     position: Junior Front-End Developer & UX Designer
     startDate: '2012-01-31'
     summary: |-
-      Work across the front-end team and design teams.
+      Work across the front-end and design teams.
 
     skills: [JavaScript, LESS, HTML5, PHP]
     url: ''
@@ -188,7 +178,7 @@ work:
     position: Junior Interactive Designer
     startDate: '2011-02-28'
     summary: |-
-      Fully integrated digital marketing campaigns for B2B brands.
+      Delivery of digital marketing campaigns for B2B brands.
 
     skills: [Javascript, HTML5, CSS, PHP, Flash, ActionScript]
     url: https://thecroc.com/

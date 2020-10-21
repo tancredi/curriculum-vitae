@@ -1,0 +1,15 @@
+<section class="section-work">
+  {{#> items-list title=title}}
+  <!--  -->
+  {{#eachSlice work start end}}
+  <!--  -->
+  {{#unless hide}}
+  <!--  -->
+  {{> list-item iconsDir='companies' subtitle=position}}
+  <!--  -->
+  {{/unless}}
+  <!--  -->
+  {{/eachSlice}}
+  <!--  -->
+  {{/items-list}}
+</section>
