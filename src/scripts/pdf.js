@@ -1,10 +1,10 @@
-const { start } = require('./server');
+const { start } = require('../core/server');
 const { writeFileSync } = require('fs');
 const { resolve } = require('path');
 const puppeteer = require('puppeteer');
 
 const port = 7564;
-const destFile = resolve(__dirname, '../public/curriculum-vitae.pdf');
+const destFile = resolve(__dirname, '../../dist/curriculum-vitae.pdf');
 const pdfSettings = {
   format: 'A4',
   margin: { top: 0, right: 0, bottom: 0, left: 0 },

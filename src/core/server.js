@@ -1,8 +1,8 @@
 const express = require('express');
 const { resolve } = require('path');
-const render = require('./render');
+const template = require('./template');
 
-const staticDir = resolve(__dirname, '../public');
+const staticDir = resolve(__dirname, '../../public');
 
 exports.start = (port = 3000, silent = false) =>
   new Promise((resolve, reject) => {
@@ -11,7 +11,7 @@ exports.start = (port = 3000, silent = false) =>
     app.use(express.static(staticDir));
 
     app.get('/', (req, res) => {
-      res.send(render());
+      res.send(template.render());
     });
 
     const server = app.listen(port, (err) => {

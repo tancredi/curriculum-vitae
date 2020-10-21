@@ -4,9 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node src/serve.js",
-    "build": "node src/render.js",
-    "export": "node src/export.js",
+    "start": "node src/scripts/serve.js",
+    "build": "rm -rf dist && mkdir -p dist && cp -r public/* dist && yarn render && yarn pdf",
+    "pdf": "mkdir -p dist && node src/scripts/pdf.js",
+    "render": "node src/scripts/render.js",
     "dev": "nodemon --exec 'yarn start' -w ./src -w ./template/partials -e html,js",
     "icons:prepare": "if ! which icon-font-generator > /dev/null; then echo '\n\"icon-font-generator\" must be installed globally - please run \"npm i -g icon-font-generator\" and try again\n' && exit 1; fi",
     "icons": "yarn icons:prepare && icon-font-generator icons/*.svg -o public/icons --prefix icon --fontspath '' --height 2000 --html false --json false --descent 350"
