@@ -1,10 +1,8 @@
 ## Curriculum Vitae
 
-> My YAML-generated curriculum vitae
+My YAML-generated curriculum vitae.
 
-### View
-
-The live build in [HTML](https://tancredi-trugenberger-cv.netlify.app/) or [PDF](https://tancredi-trugenberger-cv.netlify.app/curriculum-vitae.pdf) is continuously deployed on [Netlify](https://www.netlify.com/).
+The live build in [HTML](https://tancredi-trugenberger-cv.netlify.app/) or [PDF](https://tancredi-trugenberger-cv.netlify.app/curriculum-vitae.pdf) is continuously deployed via [Netlify](https://www.netlify.com/).
 
 ### Requirements
 
