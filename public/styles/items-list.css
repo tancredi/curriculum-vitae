@@ -84,7 +84,6 @@
 }
 
 .items-list .skills span {
-  font-size: 12px;
   font-family: var(--font-face-mono);
   color: var(--color-gray-dark);
   /* margin-right: 10px; */

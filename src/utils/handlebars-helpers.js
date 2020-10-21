@@ -33,6 +33,8 @@ helpers.lte = (a, b, options) => (a <= b ? options.fn() : null);
 
 helpers.lt = (a, b, options) => (a < b ? options.fn() : null);
 
+helpers.breaks = (str, options) => str.trim().replace(/\n/g, '<br />');
+
 helpers.eachSlice = (values, start, end, options) =>
   values
     .slice(start, end || undefined)

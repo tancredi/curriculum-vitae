@@ -76,7 +76,7 @@ work:
     startDate: '2018-02-28'
     summary: |-
       Development on the core product, partly within the YLD team and partly
-      in the in-house team to support during a critical pre-launch phase.
+      in the in-house team to support during a critical pre-launch.
 
 
       Responsibilities included the estabilishment of development
@@ -127,7 +127,7 @@ work:
     summary: |-
       Co-founding Workshape.io meant wearing many hats. Responsibilities ranged
       from design and branding, front-end development, UI / UX, growth hacking,
-      content creation, building of satellite products to public speaking and
+      content creation, building of satellite productsf to public speaking and
       many more.
 
 
@@ -420,6 +420,7 @@ projects:
     prettyUrl: london.nodeconf.com
 
   - name: Mandi
+    hide: true
     summary: |-
       An open-source easy to setup Node.js CMS driven uniquely by a JSON schema
       and configuration.
