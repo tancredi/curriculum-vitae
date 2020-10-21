@@ -4,8 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node src/serve.js",
     "build": "node src/render.js",
+    "export": "node src/export.js",
     "dev": "nodemon --exec 'yarn start' -w ./src -w ./template/partials -e html,js",
     "icons:prepare": "if ! which icon-font-generator > /dev/null; then echo '\n\"icon-font-generator\" must be installed globally - please run \"npm i -g icon-font-generator\" and try again\n' && exit 1; fi",
     "icons": "yarn icons:prepare && icon-font-generator icons/*.svg -o public/icons --prefix icon --fontspath '' --height 2000 --html false --json false --descent 350"
@@ -15,6 +16,7 @@
     "handlebars": "^4.7.6",
     "marked": "^1.2.0",
     "moment": "^2.29.1",
+    "puppeteer": "^5.3.1",
     "slug": "^3.3.5",
     "yaml": "^1.10.0"
   },

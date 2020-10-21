@@ -14,6 +14,7 @@ body {
   page-break-before: always;
   position: relative;
   overflow: hidden;
+  padding-bottom: 30px;
 }
 
 .page:after {
@@ -48,6 +49,10 @@ body {
   }
 
   .page:after {
+    display: none;
+  }
+
+  .pdf-link {
     display: none;
   }
 }
@@ -110,4 +115,33 @@ section h2,
 
 .section-profile {
   font-size: 13px;
+}
+
+.pdf-link {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.2);
+  top: -40px;
+  right: -40px;
+  width: 80px;
+  line-height: 80px;
+  text-align: center;
+  transform: rotate(-45deg);
+  transition: background 0.2s;
+}
+
+.pdf-link:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.pdf-link span {
+  color: white;
+  font-size: 13px;
+  font-weight: 900;
+  transform: rotate(90deg);
+  position: relative;
+  right: -26px;
+  left: -26px;
+  display: inline-block;
 }
