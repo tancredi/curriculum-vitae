@@ -18,7 +18,9 @@ exports.start = (port = 3000, silent = false) =>
       if (err) {
         return reject(err);
       }
+
       !silent && console.log(`Listening at http://localhost:${port}`);
+
       resolve(server);
     });
   });
