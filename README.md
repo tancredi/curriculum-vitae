@@ -4,7 +4,7 @@
 
 ### View
 
-View the CV build in [HTML](https://tancredi-trugenberger-cv.netlify.app/) form or [PDF](https://tancredi-trugenberger-cv.netlify.app/curriculum-vitae.pdf) continuously deployed on [Netlify](https://www.netlify.com/).
+The live build in [HTML](https://tancredi-trugenberger-cv.netlify.app/) or [PDF](https://tancredi-trugenberger-cv.netlify.app/curriculum-vitae.pdf) is continuously deployed on [Netlify](https://www.netlify.com/).
 
 ### Requirements
 
