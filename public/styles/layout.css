@@ -7,7 +7,7 @@ body {
 }
 
 .page {
-  max-width: 935px;
+  width: 935px;
   margin: 20px auto;
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.07) 0 2px 5px;
@@ -44,6 +44,7 @@ body {
     background: transparent;
     margin: 0;
     max-width: auto;
+    width: auto;
     box-shadow: none;
     box-shadow: none;
   }
