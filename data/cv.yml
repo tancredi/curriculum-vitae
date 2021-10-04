@@ -32,8 +32,18 @@ basics:
       url: https://github.com/tancredi
 
 work:
+  - name: Alamy
+    endDate: '2021-07-25'
+    highlights: []
+    position: Senior Full-Stack Engineer (via YLD)
+    startDate: '2020-11-19'
+    summary: |-
+      Start the build of a new Next.js front-end and Node.js back-end, development of internal tools and infrastructural work, training and upskilling of the development teams.
+    url: https://www.alamy.com
+    prettyUrl: www.alamy.com
+
   - name: Preview
-    endDate: ''
+    endDate: '2020-11-02'
     highlights: []
     position: Front-End Developer
     startDate: '2020-06-30'
@@ -201,6 +211,7 @@ work:
     highlights: []
     position: Web Designer and Developer (Internship)
     startDate: '2009-02-28'
+    hide: true
     summary: |-
       Internship in print / digital design and web development.
 
@@ -305,7 +316,7 @@ references:
       created maintainable software architecture, implemented it elegantly in the code,
       and put up a Continuous Integration pipeline. I don't know that many people who
       can do so many things and do them well. And did I tell you that he always thinks
-      about the user and the product? Well, now you know! "
+      about the user and the product? Well, now you know!"
 
   - name: Livia van Strydonck
     role: Head of product
@@ -333,7 +344,7 @@ references:
       before. I have witnessed him excel both in one-man shows and in teams, where I
       could entrust him as a partner with high level objectives and rely that he would
       drive the team to deliver on those.  If I could, I would hire Tanc to work with
-      me at any company ... but he doesn't always want to join. "
+      me at any company ... but he doesn't always want to join."
 
   - name: Yonatan Raz-Fridman
     role: CEO
@@ -382,7 +393,7 @@ references:
     reference:
       "Tanc's an extremely gifted designer/developer, with a flair for producing
       beautiful things at speed. His skill and experience go far beyond his age. He's
-      passionate, insightful and iconoclastic. All in all: a very talented young entrepreneur. "
+      passionate, insightful and iconoclastic. All in all: a very talented young entrepreneur."
 
   - name: Alex Klein
     photo: 'references/alex-klein.jpeg'

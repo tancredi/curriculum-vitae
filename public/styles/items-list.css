@@ -18,7 +18,7 @@
   position: relative;
   padding-left: 50px;
   page-break-inside: avoid;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 .items-list tr:last-child .item {
