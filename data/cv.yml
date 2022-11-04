@@ -6,13 +6,14 @@ basics:
   prettyPhone: '075 9306 7780'
   url: ''
   summary: |-
-    Product oriented front-end developer doubling as designer, I love to work
-    around the stack and undertake big challenges end-to-end.
+    Front-end developer with strong product and design focus.
 
-    I seek environments where testing and quality are valued, engineers do not
-    shy away from finding creative and innovative solutions and aim at improving
-    their workflow and automations as well as their product, where business
-    requirements and elegance in execution matter equally.
+    I’m able to take ownership
+    of a project and get stuck in every aspect of its life cycle, working around the stack and bringing a varied skill set into play.
+
+    I seek creative environments where a product mindset, as well as testing and quality
+    of delivery are valued, engineers do not shy away from finding innovative solutions
+    and are able to be problem solvers rather than just executing tasks.
 
   location:
     address: ['Flat 6 Reflection House', '112A Cheshire st']
@@ -32,8 +33,40 @@ basics:
       url: https://github.com/tancredi
 
 work:
+  - name: Lendable
+    type: Permanent
+    highlights: []
+    position: Senior Front-End Engineer
+    startDate: '2020-09-19'
+    skills:
+      [
+        React,
+        TypeScript,
+        Jest,
+        Redux,
+        Jest,
+        Node.js,
+        Cypress,
+        Next.js,
+        SASS,
+        CSS modules,
+        OpenAPI,
+      ]
+    endDate: null
+    summary: |-
+      Lead the UK lending and motor financing platforms (Lendable UK and Autolend).
+
+      Modernisation and replatforming of the legacy codebase: migrate to Next.js, TypeScript, SASS modules, React testing library, Cypress, Redux toolkit and more.
+
+      Build of new completx features and entirely new projects, e.g. white labels with B2C brands like ASDA.
+
+      Hiring and support of a new team, definition and enforcement of best practices.
+    url: https://www.alamy.com
+    prettyUrl: www.lendable.co.uk
+
   - name: Alamy
-    endDate: '2021-07-25'
+    endDate: '2021-09-10'
+    type: Contract
     highlights: []
     position: Senior Full-Stack Engineer (via YLD)
     startDate: '2020-11-19'
@@ -43,47 +76,44 @@ work:
     prettyUrl: www.alamy.com
 
   - name: Preview
-    endDate: '2020-11-02'
+    type: Contract
     highlights: []
     position: Front-End Developer
     startDate: '2020-06-30'
+    endDate: '2020-11-02'
     summary: |-
       Build of the web platform powering virtual art galleries.
 
-    skills: [React, Next.js]
+    # skills: [React, Next.js]
     url: https://preview.art/
     prettyUrl: www.preview.art
 
-  - name: Lendable (Level Card)
-    endDate: '2020-04-30'
+  - name: Lendable (Zable Card)
+    type: Contract
     highlights: []
     position: Lead Front-End Developer
     startDate: '2018-09-30'
+    endDate: '2020-04-30'
     summary: |-
-      Full design for the Level credit card mobile app and web properties.
+      Full design for the Zable credit card mobile app and web properties.
 
-
-      App and web development.
-
+      Development for both mobile apps and web.
 
       Build a CI pipeline for full mobile end to end testing and automation of
       the release cycle for both Android and iOS.
 
-
       Hiring and training of the front-end team.
 
-
-      Development on the main Lendable platform.
-
     skills: [React Native, TypeScript, Jest, Detox, Next.js]
-    url: https://levelcard.co.uk/
+    url: https://zable.co.uk/cards
     prettyUrl: www.levelcard.co.uk
 
   - name: DAZN
-    endDate: '2018-07-31'
+    type: Contract
     highlights: []
     position: Senior Front-End Consultant (via YLD)
     startDate: '2018-02-28'
+    endDate: '2018-07-31'
     summary: |-
       Work both within the YLD team and the in-house team.
 
@@ -95,10 +125,11 @@ work:
     prettyUrl: www.yld.io
 
   - name: Lendable
-    endDate: '2018-01-31'
+    type: Contract
     highlights: []
     position: Front-End Developer
     startDate: '2017-09-30'
+    endDate: '2018-01-31'
     summary: |-
       Full redesign / rebrand of the loans platform.
 
@@ -113,10 +144,11 @@ work:
     prettyUrl: www.lendable.co.uk
 
   - name: Instnt Recruitment
-    endDate: '2017-08-31'
+    type: Contract
     highlights: []
     position: Front-End Developer
     startDate: '2017-03-31'
+    endDate: '2017-08-31'
     summary: |-
       Build of the redesigned product as a SPA.
 
@@ -125,10 +157,11 @@ work:
     prettyUrl: www.instnt.com
 
   - name: Workshape.io
-    endDate: ''
+    type: Permanent
     highlights: []
     position: Co-founder & CPO
     startDate: '2014-12-31'
+    endDate: ''
     summary: |-
       Co-founded, wearing many hats - design and branding, front-end
       development, UI / UX, growth hacking, content creation, public speaking,
@@ -143,10 +176,11 @@ work:
     prettyUrl: www.workshape.io
 
   - name: Kano Computing
-    endDate: '2014-12-31'
+    type: Permanent
     highlights: []
     position: Lead Web Developer
     startDate: '2013-09-30'
+    endDate: '2014-12-31'
     summary: |-
       5th employee at Kano, build of all web properties, social platform, main
       website, API used by both the web and Kano devices, development of several
@@ -160,10 +194,11 @@ work:
     prettyUrl: www.kano.me
 
   - name: Memrise
-    endDate: '2013-09-30'
+    type: Permanent
     highlights: []
     position: Front End Developer / UX Designer
     startDate: '2012-09-30'
+    endDate: '2013-09-30'
     summary: |-
       Work alternating as front-end developer and UX designer.
 
@@ -172,10 +207,11 @@ work:
     prettyUrl: www.memrise.com
 
   - name: BraveNewTalent
-    endDate: '2012-08-31'
+    type: Permanent
     highlights: []
     position: Junior Front-End Developer & UX Designer
     startDate: '2012-01-31'
+    endDate: '2012-08-31'
     summary: |-
       Work across the front-end and design teams.
 
@@ -183,10 +219,12 @@ work:
     url: ''
 
   - name: The Crocodile
-    endDate: '2012-01-31'
+    type: Permanent
     highlights: []
     position: Junior Interactive Designer
     startDate: '2011-02-28'
+    endDate: '2012-01-31'
+    hide: true
     summary: |-
       Delivery of digital marketing campaigns for B2B brands.
 
@@ -195,10 +233,11 @@ work:
     prettyUrl: www.thecroc.com
 
   - name: Self employed
-    endDate: '2011-01-31'
+    type: Contract
     highlights: []
     position: Web Designer and Developer
     startDate: '2010-01-31'
+    endDate: '2011-01-31'
     hide: true
     summary: |-
       Design and delivery of websites and merchandise for clients, Adobe Suite.
@@ -207,10 +246,11 @@ work:
     url: ''
 
   - name: Macpro Studio
-    endDate: '2009-04-30'
+    type: Contract
     highlights: []
     position: Web Designer and Developer (Internship)
     startDate: '2009-02-28'
+    endDate: '2009-04-30'
     hide: true
     summary: |-
       Internship in print / digital design and web development.
@@ -303,9 +343,20 @@ languages:
     fluency: Bilingual
 interests: []
 references:
-  - name: Mike Borozdin
-    role: Head of Front-End
+  - name: Livia van Strydonck
+    role: Head of Product
     company: Lendable
+    togetherAt: Lendable
+    photo: references/livia-van-strydonck.jpeg
+    linkedinHandle: livia-van-strydonck
+    reference:
+      "I've had the pleasure of working with Tanc at Lendable and at Kano across various
+      different projects. He is a fantastic designer and a brilliant software engineer.
+      I know I can rely on Tanc to deliver beautiful work, fast and with a lot of humour."
+
+  - name: Mike Borozdin
+    role: Senior Software Engineer
+    company: Tractable
     togetherAt: Lendable
     photo: 'references/mike-borozdin.jpeg'
     linkedinHandle: mikeborozdin
@@ -318,22 +369,9 @@ references:
       can do so many things and do them well. And did I tell you that he always thinks
       about the user and the product? Well, now you know!"
 
-  - name: Livia van Strydonck
-    role: Head of product
-    company: Lendable
-    togetherAt: Lendable, Kano Computing
-    photo: 'references/livia-van-strydonck.jpeg'
-    linkedinHandle: livia-van-strydonck-7b9a2957
-    hide: true
-    reference:
-      I've had the pleasure of working with Tanc at Lendable and at Kano across
-      various different projects. He is a fantastic designer and a brilliant software
-      engineer. I know I can rely on Tanc to deliver beautiful work, fast and with a
-      lot of humour.
-
   - name: Riccardo Cocetta
     role: Director of Engineering
-    company: Auth0
+    company: Okta
     togetherAt: YLD, Kano Computing
     photo: 'references/riccardo-cocetta.jpeg'
     linkedinHandle: riccardococetta
@@ -352,8 +390,9 @@ references:
     photo: 'references/yonatan-raz-fridman.jpeg'
     linkedinHandle: yonatanrf
     togetherAt: Kano
+    hide: true
     reference:
-      'Tank is a talented creator, thrives on solving problems in creative
+      'Tanc is a talented creator, thrives on solving problems in creative
       ways through design and code. '
 
   - name: Tommy Säl
@@ -367,7 +406,7 @@ references:
       "Tancredi is a highly skilled, well spoken, easy to work with developer
       with a lot of hidden talents. At first glance you'd think that he spent years
       just perfecting his skills as a web developer, but once you've spent some time
-      with him you'll realise hes a jack of all trades – and mastering most of them.\r\n\r\nI'd
+      with him you'll realise he's a jack of all trades – and mastering most of them.\r\n\r\nI'd
       recommend Tanc to anyone who needs an eccentric (in a good way) developer with
       a lot of passion."
 
@@ -467,34 +506,12 @@ references:
       developers. I truly hope our career paths will cross again in the future.
 
 projects:
-  - name: Workshape.io
-    summary: |-
-      The visual job matching platform for developers.
-
-    url: https://www.workshape.io/
-    prettyUrl: workshape.io
-
-  - name: Retroospect
-    summary: |-
-      A Workshape.io satellite product, Retroospect helps tracking people their
-      happiness at work.
-
-    url: https://retroospect.com
-    prettyUrl: retroospect.com
-
-  - name: Job factors infographic
-    summary: |-
-      An experimental living infographic / survey on what developers care about in a job.
-
-    url: http://jobfactors.workshape.io/
-    prettyUrl: jobfactors.workshape.io
-
-  - name: Icon font generator
+  - name: Fantasticon
     summary: |-
       An open-source command-line tool to build icon fonts programmaticaly.
 
-    url: https://github.com/Workshape/icon-font-generator
-    prettyUrl: github.com/Workshape/icon-font-generator
+    url: https://github.com/tancredi/fantasticon
+    prettyUrl: github.com/tancredi/fantasticon
 
   - name: Nodeconf London 2016 website
     summary: |-
@@ -503,24 +520,6 @@ projects:
 
     url: http://london.nodeconf.com/
     prettyUrl: london.nodeconf.com
-
-  - name: Mandi
-    hide: true
-    summary: |-
-      An open-source easy to setup Node.js CMS driven uniquely by a JSON schema
-      and configuration.
-
-    url: https://github.com/Workshape/mandi
-    prettyUrl: github.com/Workshape/mandi
-
-  - name: DBR website
-    hide: true
-    summary: |-
-      Website design, build and process automations for the largest community
-      of in-house recruiters.
-
-    url: http://www.dbr.community/
-    prettyUrl: dbr.community
 
 talks:
   - name: '#HRU Milan'

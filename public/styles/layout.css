@@ -17,6 +17,10 @@ body {
   padding-bottom: 30px;
 }
 
+.single-column {
+  padding: 0 30px;
+}
+
 .page:after {
   position: absolute;
   width: 100%;
@@ -33,29 +37,6 @@ body {
 @page {
   size: auto;
   margin: 0;
-}
-
-@media print {
-  body {
-    background: var(--color-white);
-  }
-
-  .page {
-    background: transparent;
-    margin: 0;
-    max-width: auto;
-    width: auto;
-    box-shadow: none;
-    box-shadow: none;
-  }
-
-  .page:after {
-    display: none;
-  }
-
-  .pdf-link {
-    display: none;
-  }
 }
 
 section {
@@ -145,4 +126,27 @@ section h2,
   right: -26px;
   left: -26px;
   display: inline-block;
+}
+
+@media print {
+  body {
+    background: var(--color-white);
+  }
+
+  .page {
+    background: transparent;
+    margin: 0;
+    max-width: auto;
+    width: auto;
+    box-shadow: none;
+    box-shadow: none;
+  }
+
+  .page:after {
+    display: none;
+  }
+
+  .pdf-link {
+    display: none;
+  }
 }

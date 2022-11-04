@@ -5,25 +5,25 @@
   "license": "MIT",
   "scripts": {
     "start": "node src/scripts/serve.js",
-    "build": "rm -rf dist && mkdir -p dist && cp -r public/* dist && yarn render && yarn pdf",
+    "build": "rm -rf dist && mkdir -p dist && cp -r public/* dist && npm run render && npm run pdf",
     "pdf": "mkdir -p dist && node src/scripts/pdf.js",
     "render": "node src/scripts/render.js",
-    "dev": "nodemon --exec 'yarn start' -w ./src -w ./template/partials -e html,js",
+    "dev": "nodemon --exec 'npm run start' -w ./src -w ./template/partials -e html,js",
     "icons:prepare": "if ! which icon-font-generator > /dev/null; then echo '\n\"icon-font-generator\" must be installed globally - please run \"npm i -g icon-font-generator\" and try again\n' && exit 1; fi",
-    "icons": "yarn icons:prepare && icon-font-generator icons/*.svg -o public/icons --prefix icon --fontspath '' --height 2000 --html false --json false --descent 350"
+    "icons": "npm run icons:prepare && icon-font-generator icons/*.svg -o public/icons --prefix icon --fontspath '' --height 2000 --html false --json false --descent 350"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "handlebars": "^4.7.6",
-    "marked": "^1.2.0",
-    "moment": "^2.29.1",
-    "slug": "^3.3.5",
-    "yaml": "^1.10.0"
+    "express": "^4.18.2",
+    "handlebars": "^4.7.7",
+    "marked": "^4.2.1",
+    "moment": "^2.29.4",
+    "slug": "^8.2.2",
+    "yaml": "^2.1.3"
   },
   "devDependencies": {
-    "puppeteer": "^5.3.1",
-    "nodemon": "^2.0.4",
-    "prettier": "^2.1.2",
-    "serve": "^11.3.2"
+    "puppeteer": "^19.2.2",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1",
+    "serve": "^14.0.1"
   }
 }

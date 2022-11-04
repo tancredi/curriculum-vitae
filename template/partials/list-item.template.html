@@ -12,7 +12,9 @@
 
         <!--  -->
 
-        {{#if startDate}}
+        {{#if type}}
+        <span class="type">{{type}}</span>
+        {{/if}} {{#if startDate}}
         <p class="meta text-meta">
           {{date startDate 'MMM YYYY'}}
           <span>-</span>

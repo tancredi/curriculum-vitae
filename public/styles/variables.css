@@ -1,8 +1,8 @@
 :root {
   /* Typography */
-  --font-face-base: 'Open Sans';
-  --font-face-special: 'Gotham';
-  --font-face-mono: 'Monaco', monospace;
+  --font-face-base: 'IBM Plex Sans';
+  --font-face-special: 'IBM Plex Sans';
+  --font-face-mono: 'IBM Plex Mono';
 
   /* Base palette */
   --color-white: #fff;

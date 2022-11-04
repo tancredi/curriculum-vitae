@@ -9,7 +9,7 @@ helpers.lower = (str) => str.toLowerCase();
 
 helpers.fallback = (str, fallback) => str || fallback;
 
-helpers.markdown = (str) => marked(str);
+helpers.markdown = (str) => marked.parse(str);
 
 helpers.date = (str, format, fallback) => {
   if (!str) {
