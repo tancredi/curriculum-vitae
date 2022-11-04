@@ -7,7 +7,6 @@ The live build in [HTML](https://tancredi-trugenberger-cv.netlify.app/) or [PDF]
 ### Requirements
 
 - [Node.js](https://nodejs.org/en/)
-- [Yarn](https://yarnpkg.com/)
 
 ### Setup
 
@@ -17,7 +16,7 @@ Clone and install dependencies
 
 git clone git@github.com:tancredi/curriculum-vitae.git
 cd curriculum-vitae
-yarn
+npm i
 
 ```
 
@@ -27,7 +26,7 @@ Watch for file changes and restart the development server.
 
 ```
 
-yarn dev
+npm run dev
 # Listening at http://localhost:3000
 
 ```
@@ -38,7 +37,7 @@ Export HTML, static assets and PDF in the `dist` folder.
 
 ```
 
-yarn build
+npm run build
 # ls dist
 
 ```
