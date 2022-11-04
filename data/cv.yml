@@ -513,7 +513,15 @@ projects:
     url: https://github.com/tancredi/fantasticon
     prettyUrl: github.com/tancredi/fantasticon
 
+  - name: Olk
+    summary: |-
+      Android casual puzzle game built with Unity in C#.
+
+    url: https://play.google.com/store/apps/details?id=com.pxld.Olk
+    prettyUrl: tinyurl.com/46v2m6cj
+
   - name: Nodeconf London 2016 website
+    hide: true
     summary: |-
       Branding, design and build of a static website for London Nodeconf 2016.
       Open-source.
