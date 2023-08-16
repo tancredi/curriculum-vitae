@@ -76,21 +76,20 @@
 .items-list .meta,
 .type {
   padding-bottom: 2px;
+  font-size: 12px;
 }
 
 .items-list .meta {
   margin-top: 1px;
   margin-bottom: 0;
 }
-
+/* 
 .items-list .type {
-  margin-right: 10px;
-  font-size: 13px;
+  margin-right: 5px;
   color: var(--color-gray-dark);
   margin-bottom: 0;
-  font-weight: bold;
   display: block;
-}
+} */
 
 .items-list .skills {
   display: flex;

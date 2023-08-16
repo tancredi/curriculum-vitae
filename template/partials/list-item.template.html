@@ -12,13 +12,28 @@
 
         <!--  -->
 
-        {{#if type}}
-        <span class="type">{{type}}</span>
-        {{/if}} {{#if startDate}}
         <p class="meta text-meta">
+          {{#if startDate}}
+          <!--  -->
           {{date startDate 'MMM YYYY'}}
+          <!--  -->
           <span>-</span>
           {{date endDate 'MMM YYYY''Present'}}
+          <!--  -->
+          {{#if location}}
+          <span>-</span>
+          <!--  -->
+          {{location}}
+          <!--  -->
+          {{/if}}
+          <!--  -->
+          {{#if type}}
+          <!--  -->
+          <span>-</span>
+          <!--  -->
+          {{type}}
+          <!--  -->
+          {{/if}}
         </p>
         {{/if}}
 

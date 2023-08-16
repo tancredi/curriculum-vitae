@@ -36,6 +36,7 @@ work:
     position: Senior Product Engineer
     startDate: '2023-03-15'
     endDate: null
+    location: Remote
     skills:
       - React
       - TypeScript
@@ -61,6 +62,7 @@ work:
     position: Senior Front-End Engineer
     startDate: '2020-09-19'
     endDate: '2023-02-15'
+    location: London
     skills:
       - React
       - TypeScript
@@ -86,11 +88,12 @@ work:
     prettyUrl: www.lendable.co.uk
 
   - name: Alamy
-    endDate: '2021-09-10'
     type: Contract
     highlights: []
     position: Senior Full-Stack Engineer (via YLD)
     startDate: '2020-11-19'
+    endDate: '2021-09-10'
+    location: Remote
     summary: |-
       Kickstart a new Next.js front-end and Node.js back-end.
 
@@ -119,6 +122,7 @@ work:
     position: Senior Front-End Developer
     startDate: '2020-06-30'
     endDate: '2020-11-02'
+    location: London
     summary: |-
       Development of the web platform powering virtual art galleries.
 
@@ -150,6 +154,7 @@ work:
     position: Senior Front-End Consultant (via YLD)
     startDate: '2018-02-28'
     endDate: '2018-07-31'
+    location: London
     summary: |-
       Work both within the YLD team and the in-house team.
 
@@ -166,6 +171,7 @@ work:
     position: Front-End Developer
     startDate: '2017-09-30'
     endDate: '2018-01-31'
+    location: London
     summary: |-
       Full redesign / rebrand of the loans platform.
 
@@ -177,12 +183,13 @@ work:
     url: https://www.lendable.co.uk/
     prettyUrl: www.lendable.co.uk
 
-  - name: Instnt Recruitment
+  - name: Instnt
     type: Contract
     highlights: []
     position: Full-Stack Developer
     startDate: '2017-03-31'
     endDate: '2017-08-31'
+    location: London
     summary: |-
       Full-stack development of the new platform.
 
@@ -196,6 +203,7 @@ work:
     position: Co-founder & CPO
     startDate: '2014-12-31'
     endDate: ''
+    location: London
     summary: |-
       Design, branding and growth hacking.
 
@@ -217,6 +225,7 @@ work:
     position: Lead Web Developer
     startDate: '2013-09-30'
     endDate: '2014-12-31'
+    location: London
     summary: |-
       Development of web properties and customer facing assets.
 
@@ -238,6 +247,7 @@ work:
     position: Front End Developer / UX Designer
     startDate: '2012-09-30'
     endDate: '2013-09-30'
+    location: London
     summary: |-
       Front-end development / UX design and product work.
 
@@ -252,6 +262,7 @@ work:
     position: Junior Front-End Developer & UX Designer
     startDate: '2012-01-31'
     endDate: '2012-08-31'
+    location: London
     summary: |-
       Work across the front-end and design teams.
 
@@ -264,6 +275,7 @@ work:
     position: Junior Interactive Designer
     startDate: '2011-02-28'
     endDate: '2012-01-31'
+    location: London
     hide: true
     summary: |-
       Delivery of digital marketing campaigns for B2B brands.
@@ -278,6 +290,7 @@ work:
     position: Web Designer and Developer
     startDate: '2010-01-31'
     endDate: '2011-01-31'
+    location: Milan / London
     hide: true
     summary: |-
       Design and delivery of websites and merchandise for clients, Adobe Suite.
@@ -291,6 +304,7 @@ work:
     position: Web Designer and Developer (Internship)
     startDate: '2009-02-28'
     endDate: '2009-04-30'
+    location: Milan
     hide: true
     summary: |-
       Internship in print / digital design and web development.
@@ -306,6 +320,7 @@ education:
     studyType: Arts diploma
     startDate: '2009-12-31'
     endDate: '2010-12-31'
+    location: London
     gpa: ''
     courses: []
 
