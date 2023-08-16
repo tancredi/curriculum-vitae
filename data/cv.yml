@@ -33,34 +33,60 @@ basics:
       url: https://github.com/tancredi
 
 work:
+  - name: Artillery.io
+    type: Permanent
+    highlights: []
+    position: Senior Product Engineer
+    startDate: '2023-03-15'
+    endDate: null
+    skills:
+      - React
+      - TypeScript
+      - Playwright
+      - Node.js
+      - Tailwind
+    summary: |-
+      Feature development on the cloud platform front-end.
+
+      Performance / network traffic optimisation.
+
+      Migration of internal repositories to TypeScript.
+
+      Work on the data layer and API for cloud.
+
+      Implementation of CI pipelines, E2E testing for all happy paths.
+
+      Delivery of product features.
+    url: https://www.artillery.io/
+    prettyUrl: www.artillery.io
+
   - name: Lendable
     type: Permanent
     highlights: []
     position: Senior Front-End Engineer
     startDate: '2020-09-19'
+    endDate: '2023-02-15'
     skills:
-      [
-        React,
-        TypeScript,
-        Jest,
-        Redux,
-        Jest,
-        Node.js,
-        Cypress,
-        Next.js,
-        SASS,
-        CSS modules,
-        OpenAPI,
-      ]
-    endDate: null
+      - React
+      - TypeScript
+      - Jest
+      - Redux
+      - Jest
+      - Node.js
+      - Cypress
+      - Next.js
+      - SASS
+      - CSS modules
+      - OpenAPI
     summary: |-
-      Lead the UK lending and motor financing platforms (Lendable UK and Autolend).
+      Lead development of Lendable UK and Autolend.
 
-      Modernisation and replatforming of the legacy codebase: migrate to Next.js, TypeScript, SASS modules, React testing library, Cypress, Redux toolkit and more.
+      Replatforming to Next.js, migration to TypeScript, SASS modules, React testing library, Cypress, Redux toolkit.
 
-      Build of new completx features and entirely new projects, e.g. white labels with B2C brands like ASDA.
+      Feature delivery, build of a whitelabel system and partner projects with B2C brands like ASDA.
 
       Hiring and support of a new team, definition and enforcement of best practices.
+
     url: https://www.alamy.com
     prettyUrl: www.lendable.co.uk
 
@@ -71,20 +97,39 @@ work:
     position: Senior Full-Stack Engineer (via YLD)
     startDate: '2020-11-19'
     summary: |-
-      Kickstart the build of a new Next.js front-end and Node.js back-end, development of internal tools and infrastructural work, training and upskilling of the development teams.
+      Kickstart the build of a new Next.js front-end and Node.js back-end.
+
+      Development of internal DX tools.
+
+      Delivery of CI / CD pipelines to enforce best practices.
+
+      Training and upskilling of the development teams.
+
+      Support in delivering a progressive re-platforming and launch.
+
+      Implementation regression testing systems and automation for legacy business logic.
+
     url: https://www.alamy.com
     prettyUrl: www.alamy.com
+
+    skills:
+      - Next.js
+      - Typescript
+      - Node.js
+      - Nest.js
 
   - name: Preview
     type: Contract
     highlights: []
-    position: Front-End Developer
+    position: Senior Front-End Developer
     startDate: '2020-06-30'
     endDate: '2020-11-02'
     summary: |-
       Build of the web platform powering virtual art galleries.
 
-    # skills: [React, Next.js]
+      Delivery of key product features.
+
+    skills: [React, Next.js]
     url: https://preview.art/
     prettyUrl: www.preview.art
 
@@ -95,9 +140,7 @@ work:
     startDate: '2018-09-30'
     endDate: '2020-04-30'
     summary: |-
-      Full design for the Zable credit card mobile app and web properties.
-
-      Development for both mobile apps and web.
+      Design and development of both mobile apps and web.
 
       Build a CI pipeline for full mobile end to end testing and automation of
       the release cycle for both Android and iOS.
@@ -163,10 +206,9 @@ work:
     startDate: '2014-12-31'
     endDate: ''
     summary: |-
-      Co-founded, wearing many hats - design and branding, front-end
+      Founder, work on every aspect of the main product - design and branding, front-end
       development, UI / UX, growth hacking, content creation, public speaking,
       delivery of white-labels and more.
-
 
       Build of satellite products such as
       [Retroospect](https://retroospect.com/) and others.
@@ -194,6 +236,7 @@ work:
     prettyUrl: www.kano.me
 
   - name: Memrise
+    hide: true
     type: Permanent
     highlights: []
     position: Front End Developer / UX Designer
@@ -207,6 +250,7 @@ work:
     prettyUrl: www.memrise.com
 
   - name: BraveNewTalent
+    hide: true
     type: Permanent
     highlights: []
     position: Junior Front-End Developer & UX Designer

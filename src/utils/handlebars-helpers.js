@@ -59,6 +59,22 @@ helpers.eachColumn = (values, columnsCount, options) => {
   return columns.map(options.fn).join('');
 };
 
+helpers.eachColumnMarker = (values, columnsCount, options) => {
+  const columns = [];
+  let column = [];
+
+  for (const item of values) {
+    column.push(item);
+
+    if (item.last) {
+      columns.push({ rows, index: c });
+      columns = [];
+    }
+  }
+
+  return columns.map(options.fn).join('');
+};
+
 helpers.listDiffRender = (list, entry, dir, options) => {
   const index = list.indexOf(entry);
   const adjacent = list[dir === 'disc' ? index - 1 : index + 1];
