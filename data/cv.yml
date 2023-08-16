@@ -3,25 +3,22 @@ basics:
   label: Senior Front-End Developer
   email: tancredi@pxld.co.uk
   phone: '+447593067780'
-  prettyPhone: '075 9306 7780'
+  prettyPhone: '+44 7593067780'
   url: ''
   summary: |-
-    Front-end developer with strong product and design focus.
-
-    I’m able to take ownership
-    of a project and get stuck in every aspect of its life cycle, working around the stack and bringing a varied skill set into play.
+    Full-stack developer with strong front-end, product and design focus.
 
     I seek creative environments where a product mindset, as well as testing and quality
     of delivery are valued, engineers do not shy away from finding innovative solutions
     and are able to be problem solvers rather than just executing tasks.
 
-  location:
-    address: ['Flat 6 Reflection House', '112A Cheshire st']
-    postalCode: E2 6HE
-    city: London
-    countryCode: UK
-    country: United Kingdom
-    region: London
+  # location:
+  #   address: ['Passeig d'Amunt 33']
+  #   postalCode: 08024
+  #   city: Barcelona
+  #   countryCode: ES
+  #   country: Spain
+  #   region: barcelona
 
   profiles:
     - network: LinkedIn
@@ -34,7 +31,7 @@ basics:
 
 work:
   - name: Artillery.io
-    type: Permanent
+    # type: Permanent
     highlights: []
     position: Senior Product Engineer
     startDate: '2023-03-15'
@@ -55,13 +52,11 @@ work:
       Work on the data layer and API for cloud.
 
       Implementation of CI pipelines, E2E testing for all happy paths.
-
-      Delivery of product features.
     url: https://www.artillery.io/
     prettyUrl: www.artillery.io
 
   - name: Lendable
-    type: Permanent
+    # type: Permanent
     highlights: []
     position: Senior Front-End Engineer
     startDate: '2020-09-19'
@@ -79,13 +74,13 @@ work:
       - CSS modules
       - OpenAPI
     summary: |-
-      Lead development of Lendable UK and Autolend.
+      Lead developer for Lendable UK and Autolend.
 
       Replatforming to Next.js, migration to TypeScript, SASS modules, React testing library, Cypress, Redux toolkit.
 
-      Feature delivery, build of a whitelabel system and partner projects with B2C brands like ASDA.
+      Build of a whitelabel system and partnerships like (e.g. ASDA).
 
-      Hiring and support of a new team, definition and enforcement of best practices.
+      Hiring and support of a new team, definition of best practices.
 
     url: https://www.alamy.com
     prettyUrl: www.lendable.co.uk
@@ -97,7 +92,7 @@ work:
     position: Senior Full-Stack Engineer (via YLD)
     startDate: '2020-11-19'
     summary: |-
-      Kickstart the build of a new Next.js front-end and Node.js back-end.
+      Kickstart a new Next.js front-end and Node.js back-end.
 
       Development of internal DX tools.
 
@@ -125,9 +120,7 @@ work:
     startDate: '2020-06-30'
     endDate: '2020-11-02'
     summary: |-
-      Build of the web platform powering virtual art galleries.
-
-      Delivery of key product features.
+      Development of the web platform powering virtual art galleries.
 
     skills: [React, Next.js]
     url: https://preview.art/
@@ -176,9 +169,7 @@ work:
     summary: |-
       Full redesign / rebrand of the loans platform.
 
-
-      Rebuild of the legacy MVP application as an isomorphic SPA.
-
+      Rebuild of the main application as an isomorphic platform.
 
       Build of a CI / end-to-end testing pipeline.
 
@@ -189,45 +180,51 @@ work:
   - name: Instnt Recruitment
     type: Contract
     highlights: []
-    position: Front-End Developer
+    position: Full-Stack Developer
     startDate: '2017-03-31'
     endDate: '2017-08-31'
     summary: |-
-      Build of the redesigned product as a SPA.
+      Full-stack development of the new platform.
 
     skills: [Vue.js, Stylus, Flask]
     url: https://instnt.com/
     prettyUrl: www.instnt.com
 
   - name: Workshape.io
-    type: Permanent
+    # type: Permanent
     highlights: []
     position: Co-founder & CPO
     startDate: '2014-12-31'
     endDate: ''
     summary: |-
-      Founder, work on every aspect of the main product - design and branding, front-end
-      development, UI / UX, growth hacking, content creation, public speaking,
-      delivery of white-labels and more.
+      Design, branding and growth hacking.
 
-      Build of satellite products such as
-      [Retroospect](https://retroospect.com/) and others.
+      Full-stack development of the product.
+
+      Content creation, public speaking.
+
+      Delivery of white-labels for third party brands and partnerships.
+
+      Build of satellite products.
 
     skills: [Angular, Node.js, Stylus]
     url: https://www.workshape.io/
     prettyUrl: www.workshape.io
 
   - name: Kano Computing
-    type: Permanent
+    # type: Permanent
     highlights: []
     position: Lead Web Developer
     startDate: '2013-09-30'
     endDate: '2014-12-31'
     summary: |-
-      5th employee at Kano, build of all web properties, social platform, main
-      website, API used by both the web and Kano devices, development of several
-      apps and games on the OS.
+      Development of web properties and customer facing assets.
 
+      Full-stack development of the Kano World social platform.
+
+      Build of API used by both the web and Kano devices.
+
+      Development of apps and games for the OS.
 
       Hiring and training of staff for the web team.
 
@@ -236,14 +233,13 @@ work:
     prettyUrl: www.kano.me
 
   - name: Memrise
-    hide: true
-    type: Permanent
+    # type: Permanent
     highlights: []
     position: Front End Developer / UX Designer
     startDate: '2012-09-30'
     endDate: '2013-09-30'
     summary: |-
-      Work alternating as front-end developer and UX designer.
+      Front-end development / UX design and product work.
 
     skills: [JavaScript, SCSS, Django]
     url: https://www.memrise.com/
@@ -251,7 +247,7 @@ work:
 
   - name: BraveNewTalent
     hide: true
-    type: Permanent
+    # type: Permanent
     highlights: []
     position: Junior Front-End Developer & UX Designer
     startDate: '2012-01-31'
@@ -263,7 +259,7 @@ work:
     url: ''
 
   - name: The Crocodile
-    type: Permanent
+    # type: Permanent
     highlights: []
     position: Junior Interactive Designer
     startDate: '2011-02-28'

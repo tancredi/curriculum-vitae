@@ -3,7 +3,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 35px 30px 65px;
+  padding: 25px 30px 55px;
   background-image: url(/assets/layout/header-abstracts.svg);
   background-position: center bottom;
   background-size: 100% auto;
@@ -13,7 +13,7 @@ header {
 }
 
 header h1 {
-  font-size: 28px;
+  font-size: 24px;
   text-transform: uppercase;
   margin: 5px 0 0;
   font-weight: normal;
@@ -21,7 +21,7 @@ header h1 {
 }
 
 header h2 {
-  font-size: 23.5px;
+  font-size: 21px;
   color: var(--color-white);
   font-weight: 300;
 }
