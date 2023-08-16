@@ -553,12 +553,22 @@ projects:
     url: https://github.com/tancredi/fantasticon
     prettyUrl: github.com/tancredi/fantasticon
 
+  - name: DungeonMinion
+    summary: |-
+      A mobile app to create role-playing game plot assets using StableDiffusion and GPT-3.
+
+    url: https://play.google.com/store/apps/details?id=com.pxld.DungeonMinion
+    prettyUrl: Google Play
+
+    altUrl: https://apps.apple.com/app/dungeonminion/id1659312990?l=en-GB
+    altPrettyUrl: Apple Store
+
   - name: Olk
     summary: |-
       Android casual puzzle game built with Unity in C#.
 
     url: https://play.google.com/store/apps/details?id=com.pxld.Olk
-    prettyUrl: tinyurl.com/46v2m6cj
+    prettyUrl: Google Play
 
   - name: Nodeconf London 2016 website
     hide: true
@@ -575,8 +585,7 @@ talks:
     year: 2016
     topic: The future of work
     summary: |-
-      Introductory talk and 'unconference' track moderation on the topic of the
-      future of work.
+      Talk and track moderation on the future of work.
 
     url: http://www.globalhru.com/event/hrumilan-future-of-work/
     prettyUrl: www.globalhru.com
@@ -586,8 +595,7 @@ talks:
     year: 2015
     topic: Presenting Workshape.io
     summary: |-
-      Introduction and live demo of Workshape.io as part of a competition at a
-      large scale HR conference.
+      Workshape.io intro and live demo in a HR tech competition.
 
     url: http://hrotodayforum.com/
     prettyUrl: hrotodayforum.com
@@ -597,8 +605,8 @@ talks:
     year: 2014
     topic: Learning happens
     summary: |-
-      Introduction to Kano, my company at the time, providing kids with tools
-      and games to spark their interest in becoming makers through technology.
+      Helping express the maker spark into young minds through games, technology
+      and iterative experiences.
 
     url: http://2014.lxjs.org/
     prettyUrl: 2014.lxjs.org
@@ -608,8 +616,7 @@ talks:
     year: 2013
     topic: Developing a mobile-first HTML5 game
     summary: |-
-      Walk-though of a hybrid, mobile-first game build using Javascript
-      and HTML5 over Cordova.
+      Building HTML5 mobile-first games using Cordova and JavaScript.
 
     url: http://2013.lxjs.org/
     prettyUrl: 2013.lxjs.org
@@ -619,8 +626,7 @@ talks:
     year: 2012
     topic: HTML5 and web sockets for multi-player gaming
     summary: |-
-      Presentation of a real-time multi-player game protoype built with a
-      colleague at the time, using HTML5 and WebSockets.
+      Real-time multi-player game dev with HTML5 and WebSockets.
 
     url: https://lnug.org/
     prettyUrl: lnug.org
@@ -634,4 +640,4 @@ awards:
   - name: Webby Awards
     year: 2014
     award: Kano Computing
-    category: Webby Winner - Apps, Mobile and Voice Connected Products & Wearables
+    category: Apps, Mobile and Voice Connected Products & Wearables
